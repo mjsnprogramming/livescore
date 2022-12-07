@@ -1,0 +1,63 @@
+
+#navbar {
+    width: 72px;
+    height: 1012px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 24px 28px;
+    gap: 285px;
+    background-color: #14151B;
+    border: 1px solid #313131;
+    img {
+        cursor: pointer;
+    }
+}
+#flameVector {
+    position: absolute;
+    top: 120px;
+}
+#compassVector {
+    position: absolute;
+    top: 176px;
+}
+#commentVector {
+    position: absolute;
+    top: 232px;
+}
+#betweenVectors {
+    width: 24px;
+    height: 0;
+    border: 1px solid #A4A4A4;
+    position: absolute;
+    top: 312px;
+}
+#footballVector {
+    position: absolute;
+    top: 368px;
+}
+#basketballVector {
+    position: absolute;
+    top: 424px;
+}
+#billardsVector {
+    position: absolute;
+    top: 480px;
+}
+#tableTennisVector {
+    position: absolute;
+    top: 536px;
+}
+#cyclingVector {
+    position: absolute;
+    top: 592px;
+}
+#infoVector {
+    position: absolute;
+    top: 904px;
+}
+#commentaryVector {
+    position: absolute;
+    top: 960px;
+}

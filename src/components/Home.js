@@ -1,4 +1,5 @@
 import '../styles/Home.scss';
+import {Link} from 'react-router-dom';
 import MenuVector from '../images/Menu.png';
 import FlameVector from '../images/Flame.png';
 import CompassVector from '../images/Compass.png';
@@ -10,6 +11,9 @@ import TableTennisVector from '../images/TableTennis.png';
 import CyclingVector from '../images/Cycling.png';
 import InfoVector from '../images/Info.png';
 import CommentaryVector from '../images/Commentary.png';
+import DashboardVector from '../images/Dashboard.png';
+import LiveVector from '../images/Live.png';
+
 
 function Home() {
     return (
@@ -29,6 +33,15 @@ function Home() {
                 <img src = {CyclingVector} id = "cyclingVector"/>
                 <img src = {InfoVector} id = "infoVector"/>
                 <img src = {CommentaryVector} id = "commentaryVector"/>
+            </div>
+
+            <div id = "dashboard">
+                <span>MJSN LiveScore</span>
+                <span>MENU</span>
+                <img src = {DashboardVector} id = "dashboardVector"/>
+                <li><Link to = "/" className = "links">Dashboard</Link></li>
+                <img src = {LiveVector} id = "liveVector"/>
+                <li><Link to = "/Live">Live Football</Link></li>
             </div>
 
         </div>

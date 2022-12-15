@@ -1,4 +1,5 @@
 $inter: 'Inter', sans-serif;
+$myGray: #A4A4A4;
 @mixin dashboardLinks() {
     font-family: $inter;
     font-weight: 500;
@@ -45,7 +46,7 @@ $inter: 'Inter', sans-serif;
 #betweenVectors {
     width: 24px;
     height: 0;
-    border: 1px solid #A4A4A4;
+    border: 1px solid $myGray;
     position: absolute;
     top: 312px;
 }
@@ -103,7 +104,7 @@ $inter: 'Inter', sans-serif;
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-        color: #A4A4A4;
+        color: $myGray;
         position: absolute;
         top: 120px;
     }
@@ -126,7 +127,141 @@ $inter: 'Inter', sans-serif;
         @include dashboardLinks;
         top: 227px;
         a {
-            color: #A4A4A4;
+            color: $myGray;
+        }
+    }
+    #standingsVector {
+        @include dashboardImages;
+        top: 273px;
+    }
+    li:nth-child(8) {
+        @include dashboardLinks;
+        top: 275px;
+        a {
+            color: $myGray;
+        }
+    }
+    #highlightsVector {
+        @include dashboardImages;
+        top: 321px;
+    }
+    li:nth-child(10) {
+        @include dashboardLinks;
+        top: 322px;
+        a {
+            color: $myGray;
+        }
+    }
+    #shopVector {
+        @include dashboardImages;
+        top: 369px;
+    }
+    li:nth-child(12) {
+        @include dashboardLinks;
+        top: 371px;
+        a {
+            color: $myGray;
+        }
+    }
+    #newsVector {
+        @include dashboardImages;
+        top: 417px;
+    }
+    li:nth-child(14) {
+        @include dashboardLinks;
+        top: 419px;
+        a {
+            color: $myGray;
+        }
+    }
+}
+#footballLeague {
+    span {
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        color: $myGray !important;
+        position: absolute;
+        top: 484px;
+    }
+    #championsLeague {
+        @include dashboardImages;
+        top: 593px;
+    }
+    li:nth-child(3) {
+        @include dashboardLinks;
+        top: 595px;
+        a {
+            color: white;
+        }
+    }
+    #premierLeague {
+        @include dashboardImages;
+        top: 641px;
+    }
+    li:nth-child(5) {
+        @include dashboardLinks;
+        top: 643px;
+        a {
+            color: white;
+        }
+    }
+    #laLiga {
+        @include dashboardImages;
+        top: 689px;
+    }
+    li:nth-child(7) {
+        @include dashboardLinks;
+        top: 691px;
+        a {
+            color: white;
+        }
+    }
+    #ligue1 {
+        @include dashboardImages;
+        top: 737px;
+    }
+    li:nth-child(9) {
+        @include dashboardLinks;
+        top: 739px;
+        a {
+            color: white;
+        }
+    }
+    #serieA {
+        @include dashboardImages;
+        top: 781px;
+    }
+    li:nth-child(11) {
+        @include dashboardLinks;
+        top: 783px;
+        a {
+            color: white;
+        }
+    }
+    #bundesliga {
+        @include dashboardImages;
+        top: 825px;
+    }
+    li:nth-child(13) {
+        @include dashboardLinks;
+        top: 827px;
+        a {
+            color: white;
+        }
+    }
+    #ekstraklasa {
+        @include dashboardImages;
+        top: 871px;
+    }
+    li:nth-child(15) {
+        @include dashboardLinks;
+        top: 873px;
+        a {
+            color: white;
         }
     }
 }

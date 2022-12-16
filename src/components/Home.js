@@ -24,6 +24,8 @@ import Ligue1 from '../images/Ligue1.png';
 import SerieA from '../images/SerieA.png';
 import Bundesliga from '../images/Bundesliga.png';
 import Ekstraklasa from '../images/Ekstraklasa.png';
+import CartVector from '../images/CartVector.png';
+import NotificationVector from '../images/NotificationVector.png';
 
 
 function Home() {
@@ -80,6 +82,13 @@ function Home() {
                     <li><Link to = "/Ekstraklasa">Ekstraklasa</Link></li> 
                 </div>
 
+            </div>
+
+            <div id = "searching">
+                <input type = "text" id = "searchInput" placeholder = "Type to search..."></input>
+                <img src = {CartVector} id = "cartVector"/>
+                <img src = {NotificationVector} id = "notificationVector"/>
+                <div id = "account"></div>
             </div>
 
         </div>

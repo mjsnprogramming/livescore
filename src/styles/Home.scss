@@ -270,10 +270,11 @@ a {
     text-decoration: none;
 }
 #searching {
-    width: 1400px;
+    width: auto;
     height: 68px;
     background-color: #1B1C21;
-    float: left;
+    overflow: auto;
+
     #searchInput {
         width: 548px;
         height: 36px;
@@ -292,6 +293,28 @@ a {
         background-repeat: no-repeat;
         background-position: 8px 10px;
         background-size: 16px;
-        
+        color: white;
+    }
+    #cartVector {
+        @include dashboardImages;
+        top: 22px;
+        margin-left: 714px;
+        cursor: pointer;
+    }
+    #notificationVector {
+        position: absolute;
+        top: 24px;
+        margin-left: 754px;
+        cursor: pointer;
+    }
+    #account {
+        width: 36px;
+        height: 36px;
+        border: transparent;
+        border-radius: 360px;
+        background-color: white;
+        position: absolute;
+        top: 16px;
+        margin-left: 1374px;
     }
 }

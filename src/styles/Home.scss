@@ -15,6 +15,10 @@ $myGray: #A4A4A4;
     height: 24px;
     position: absolute;
 }
+.Home {
+    background-color: #212227;
+    height: 1000px;
+}
 #navbar {
     width: 72px;
     height: 1012px;
@@ -318,3 +322,143 @@ a {
         margin-left: 1374px;
     }
 }
+#footballMatch {
+    width: 1030px;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    margin-top: 40px;
+    position: relative;
+    left: 80px;
+    font-family: $inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    ul {
+        li {
+            display: inline-flex;
+            @include dashboardLinks;
+            position: relative;
+            left: -80px;
+            color: $myGray;
+        }
+        li:nth-child(1) {
+            color: #FFFFFF;  
+        }
+    }
+    #footballMatchHR {
+        width: 1024px;
+        height: 4px;
+        border: solid 1px #2E3034;
+        position: relative;
+        top: -80px;
+    }
+    #underlineFootballMatchHR {
+        width: 133px;
+        height: 4px;
+        position: absolute;
+        background-color: #5742A9;
+        border: none;
+        top: 132px;
+    }
+}
+.latestScore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 88px;
+    background-color: #5742A9;
+    width: 1030px;
+    height: 65px;
+    border-radius: 8px;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    img:nth-child(1) {
+        position: absolute;
+        left: 30px;
+    }
+    span:nth-child(2) {
+        position: absolute;
+        left: 77px;
+        font-family: $inter;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .latestMatchScore {
+        width: 64px;
+        height: 29px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 6px 16px;
+        gap: 8px;
+        background-color: rgba(245, 196, 81, 0.1);
+        border-radius: 16px;
+        position: absolute;
+        left: 229px;
+        text-align: center;
+        span {
+            font-family: $inter;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #F5C451;
+        }
+    }
+    span:nth-child(4) {
+        
+        font-family: $inter;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    .fullTime {
+        width: 103px;
+        height: 33px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        position: absolute;
+        left: 580px;
+        font-family: $inter;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+    }
+}
+#secondScore,
+#fourthScore {
+    background-color: #212227;
+}
+#firstScore,
+#thirdScore,
+#fifthScore {
+    background-color: #1B1C21;
+}
+
+
+

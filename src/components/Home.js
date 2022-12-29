@@ -26,6 +26,20 @@ import Bundesliga from '../images/Bundesliga.png';
 import Ekstraklasa from '../images/Ekstraklasa.png';
 import CartVector from '../images/CartVector.png';
 import NotificationVector from '../images/NotificationVector.png';
+import FootballBall from '../images/FootballBall.png';
+import Argentina from '../images/Argentina.png';
+import Italy from '../images/Italy.png';
+import InfoVectorMatch from '../images/InfoVectorMatch.png';
+import StatsVectorMatch from '../images/StatsVectorMatch.png';
+import Portugal from '../images/Portugal.png';
+import Germany from '../images/Germany.png';
+import Ghana from '../images/Ghana.png';
+import Brazil from '../images/Brazil.png';
+import Uruguay from '../images/Uruguay.png';
+import Poland from '../images/Poland.png';
+import Spain from '../images/Spain.png';
+import Czech from '../images/Czech.png';
+
 
 
 function Home() {
@@ -90,6 +104,98 @@ function Home() {
                 <img src = {NotificationVector} id = "notificationVector"/>
                 <div id = "account"></div>
             </div>
+
+            <div id = "footballMatch">
+                <img src = {FootballBall}/>
+                <ul>
+                    <li>Latest Match</li>
+                    <li>Coming Match</li>
+                    <li>Live Games</li>
+                </ul>
+                <hr id = "footballMatchHR"></hr>
+                <hr id = "underlineFootballMatchHR"></hr>
+            </div>
+
+            <div id = "firstScore" className = "latestScore">
+                <img src = {Argentina}/>
+                <span>Argentina</span>
+                <div className = "latestMatchScore">
+                    <span>1-2</span>
+                </div>
+                <span>Italy</span>
+                <img src = {Italy}/>
+                <div className = "fullTime">
+                    <span>Full - Time</span>
+                </div>
+                <span>18 December 2022</span>
+                <img src = {InfoVectorMatch}/>
+                <img src = {StatsVectorMatch}/>
+            </div>
+
+            <div id = "secondScore" className = "latestScore">
+                <img src = {Portugal}/>
+                <span>Portugal</span>
+                <div className = "latestMatchScore">
+                    <span>2-3</span>
+                </div>
+                <span>Germany</span>
+                <img src = {Germany}/>
+                <div className = "fullTime">
+                    <span>Full - Time</span>
+                </div>
+                <span>18 December 2022</span>
+                <img src = {InfoVectorMatch}/>
+                <img src = {StatsVectorMatch}/>
+            </div>
+
+            <div id = "thirdScore" className = "latestScore">
+                <img src = {Ghana}/>
+                <span>Ghana</span>
+                <div className = "latestMatchScore">
+                    <span>1-3</span>
+                </div>
+                <span>Brazil</span>
+                <img src = {Brazil}/>
+                <div className = "fullTime">
+                    <span>Full - Time</span>
+                </div>
+                <span>17 December 2022</span>
+                <img src = {InfoVectorMatch }/>
+                <img src = {StatsVectorMatch}/>
+            </div>
+
+            <div id = "fourthScore" className = "latestScore">
+                <img src = {Uruguay}/>
+                <span>Uruguay</span>
+                <div className = "latestMatchScore">
+                    <span>2-2</span>
+                </div>
+                <span>Poland</span>
+                <img src = {Poland}/>
+                <div className = "fullTime">
+                    <span>Full - Time</span>
+                </div>
+                <span>17 December 2022</span>
+                <img src = {InfoVectorMatch}/>
+                <img src = {StatsVectorMatch}/>
+            </div>
+
+            <div id = "fifthScore" className = "latestScore">
+                <img src = {Spain}/>
+                <span>Spain</span>
+                <div className = "latestMatchScore">
+                    <span>3-3</span>
+                </div>
+                <span>Czech</span>
+                <img src = {Czech}/>
+                <div className = "fullTime">
+                    <span>Full - Time</span>
+                </div>
+                <span>16 December 2022</span>
+                <img src = {InfoVectorMatch}/>
+                <img src = {StatsVectorMatch}/>
+            </div>
+
 
         </div>
     )

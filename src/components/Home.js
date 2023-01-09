@@ -120,80 +120,80 @@ function Home() {
                 <img src = {Argentina}/>
                 <span>Argentina</span>
                 <div className = "latestMatchScore">
-                    <span>1-2</span>
+                    <span>1 - 2</span>
                 </div>
                 <span>Italy</span>
                 <img src = {Italy}/>
                 <div className = "fullTime">
                     <span>Full - Time</span>
                 </div>
-                <span>18 December 2022</span>
-                <img src = {InfoVectorMatch}/>
-                <img src = {StatsVectorMatch}/>
+                <span className = "dateOfGame">18 December 2022</span>
+                <img src = {InfoVectorMatch} className = "infoVectorMatch"/>
+                <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
             </div>
 
             <div id = "secondScore" className = "latestScore">
                 <img src = {Portugal}/>
                 <span>Portugal</span>
                 <div className = "latestMatchScore">
-                    <span>2-3</span>
+                    <span>2 - 3</span>
                 </div>
                 <span>Germany</span>
                 <img src = {Germany}/>
                 <div className = "fullTime">
                     <span>Full - Time</span>
                 </div>
-                <span>18 December 2022</span>
-                <img src = {InfoVectorMatch}/>
-                <img src = {StatsVectorMatch}/>
+                <span className = "dateOfGame">18 December 2022</span>
+                <img src = {InfoVectorMatch} className = "infoVectorMatch"/>
+                <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
             </div>
 
             <div id = "thirdScore" className = "latestScore">
                 <img src = {Ghana}/>
                 <span>Ghana</span>
                 <div className = "latestMatchScore">
-                    <span>1-3</span>
+                    <span>1 - 3</span>
                 </div>
                 <span>Brazil</span>
                 <img src = {Brazil}/>
                 <div className = "fullTime">
                     <span>Full - Time</span>
                 </div>
-                <span>17 December 2022</span>
-                <img src = {InfoVectorMatch }/>
-                <img src = {StatsVectorMatch}/>
+                <span className = "dateOfGame">17 December 2022</span>
+                <img src = {InfoVectorMatch } className = "infoVectorMatch"/>
+                <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
             </div>
 
             <div id = "fourthScore" className = "latestScore">
                 <img src = {Uruguay}/>
                 <span>Uruguay</span>
                 <div className = "latestMatchScore">
-                    <span>2-2</span>
+                    <span>2 - 2</span>
                 </div>
                 <span>Poland</span>
                 <img src = {Poland}/>
                 <div className = "fullTime">
                     <span>Full - Time</span>
                 </div>
-                <span>17 December 2022</span>
-                <img src = {InfoVectorMatch}/>
-                <img src = {StatsVectorMatch}/>
+                <span className = "dateOfGame">17 December 2022</span>
+                <img src = {InfoVectorMatch} className = "infoVectorMatch"/>
+                <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
             </div>
 
             <div id = "fifthScore" className = "latestScore">
                 <img src = {Spain}/>
                 <span>Spain</span>
                 <div className = "latestMatchScore">
-                    <span>3-3</span>
+                    <span>3 - 3</span>
                 </div>
                 <span>Czech</span>
                 <img src = {Czech}/>
                 <div className = "fullTime">
                     <span>Full - Time</span>
                 </div>
-                <span>16 December 2022</span>
-                <img src = {InfoVectorMatch}/>
-                <img src = {StatsVectorMatch}/>
+                <span className = "dateOfGame">16 December 2022</span>
+                <img src = {InfoVectorMatch} className = "infoVectorMatch"/>
+                <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
             </div>
 
 

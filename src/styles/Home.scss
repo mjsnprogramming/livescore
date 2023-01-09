@@ -410,16 +410,18 @@ a {
         span {
             font-family: $inter;
             font-weight: 600;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 17px;
             display: flex;
             align-items: center;
             text-align: center;
             color: #F5C451;
+            margin-lefT: 17px;
         }
     }
     span:nth-child(4) {
-        
+        position: absolute;
+        right: 585px;
         font-family: $inter;
         font-weight: 500;
         font-size: 16px;
@@ -428,6 +430,10 @@ a {
         align-items: center;
         text-align: right;
         color: #FFFFFF;
+    }
+    img:nth-child(5) {
+        position: absolute;
+        right: 530px;
     }
     .fullTime {
         width: 103px;
@@ -448,6 +454,28 @@ a {
         line-height: 17px;
         display: flex;
         align-items: center;
+        color: #FFFFFF;
+    }
+    .dateOfGame {
+        position: absolute;
+        left: 770px;
+        color: $myGray;
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        display: flex;
+        align-items: center;
+    }
+    .infoVectorMatch {
+        position: absolute;
+        left: 936px;
+        cursor: pointer;
+    }
+    .statsVectorMatch {
+        position: absolute;
+        left: 979px;
+        cursor: pointer;
     }
 }
 #secondScore,

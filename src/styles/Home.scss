@@ -19,309 +19,10 @@ $myGray: #A4A4A4;
     background-color: #212227;
     height: 1000px;
 }
-#navbar {
-    width: 72px;
-    height: 1012px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 24px 28px;
-    gap: 285px;
-    background-color: #14151B;
-    border: 1px solid #313131;
-    float: left;
-    img {
-        cursor: pointer;
-    }
-}
-#flameVector {
-    position: absolute;
-    top: 120px;
-}
-#compassVector {
-    position: absolute;
-    top: 176px;
-}
-#commentVector {
-    position: absolute;
-    top: 232px;
-}
-#betweenVectors {
-    width: 24px;
-    height: 0;
-    border: 1px solid $myGray;
-    position: absolute;
-    top: 312px;
-}
-#footballVector {
-    position: absolute;
-    top: 368px;
-}
-#basketballVector {
-    position: absolute;
-    top: 424px;
-}
-#billardsVector {
-    position: absolute;
-    top: 480px;
-}
-#tableTennisVector {
-    position: absolute;
-    top: 536px;
-}
-#cyclingVector {
-    position: absolute;
-    top: 592px;
-}
-#infoVector {
-    position: absolute;
-    top: 904px;
-}
-#commentaryVector {
-    position: absolute;
-    top: 960px;
-}
-#dashboard {
-    width: 283px;
-    height: 1012px;
-    display: flex;
-    flex-direction: column;
-    padding: 24px 24px 28px;
-    gap: 16px;
-    background-color: #1B1C21;
-    border: 1px solid #313131;
-    float: left;
-    span:nth-child(1) {
-        font-family: $inter;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
-        display: flex;
-        margin-left: 56px;
-        color: #FFFFFF;
-        position: relative;
-        display: block;
-        margin: 0 auto;
-    }
-    span:nth-child(2) {
-        font-family: $inter;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        color: $myGray;
-        position: absolute;
-        top: 120px;
-    }
-    #dashboardVector {
-        @include dashboardImages;
-        top: 180px;
-    }
-    li:nth-child(4) {
-        @include dashboardLinks;
-        top: 183px;
-        a {
-            color: #F5C451;
-        }
-    }
-    #liveVector {
-        @include dashboardImages;
-        top: 225px;
-    }
-    li:nth-child(6) {
-        @include dashboardLinks;
-        top: 227px;
-        a {
-            color: $myGray;
-        }
-    }
-    #standingsVector {
-        @include dashboardImages;
-        top: 273px;
-    }
-    li:nth-child(8) {
-        @include dashboardLinks;
-        top: 275px;
-        a {
-            color: $myGray;
-        }
-    }
-    #highlightsVector {
-        @include dashboardImages;
-        top: 321px;
-    }
-    li:nth-child(10) {
-        @include dashboardLinks;
-        top: 322px;
-        a {
-            color: $myGray;
-        }
-    }
-    #shopVector {
-        @include dashboardImages;
-        top: 369px;
-    }
-    li:nth-child(12) {
-        @include dashboardLinks;
-        top: 371px;
-        a {
-            color: $myGray;
-        }
-    }
-    #newsVector {
-        @include dashboardImages;
-        top: 417px;
-    }
-    li:nth-child(14) {
-        @include dashboardLinks;
-        top: 419px;
-        a {
-            color: $myGray;
-        }
-    }
-}
-#footballLeague {
-    span {
-        font-family: $inter;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        display: flex;
-        align-items: center;
-        color: $myGray !important;
-        position: absolute;
-        top: 484px;
-    }
-    #championsLeague {
-        @include dashboardImages;
-        top: 593px;
-    }
-    li:nth-child(3) {
-        @include dashboardLinks;
-        top: 595px;
-        a {
-            color: white;
-        }
-    }
-    #premierLeague {
-        @include dashboardImages;
-        top: 641px;
-    }
-    li:nth-child(5) {
-        @include dashboardLinks;
-        top: 643px;
-        a {
-            color: white;
-        }
-    }
-    #laLiga {
-        @include dashboardImages;
-        top: 689px;
-    }
-    li:nth-child(7) {
-        @include dashboardLinks;
-        top: 691px;
-        a {
-            color: white;
-        }
-    }
-    #ligue1 {
-        @include dashboardImages;
-        top: 737px;
-    }
-    li:nth-child(9) {
-        @include dashboardLinks;
-        top: 739px;
-        a {
-            color: white;
-        }
-    }
-    #serieA {
-        @include dashboardImages;
-        top: 781px;
-    }
-    li:nth-child(11) {
-        @include dashboardLinks;
-        top: 783px;
-        a {
-            color: white;
-        }
-    }
-    #bundesliga {
-        @include dashboardImages;
-        top: 825px;
-    }
-    li:nth-child(13) {
-        @include dashboardLinks;
-        top: 827px;
-        a {
-            color: white;
-        }
-    }
-    #ekstraklasa {
-        @include dashboardImages;
-        top: 871px;
-    }
-    li:nth-child(15) {
-        @include dashboardLinks;
-        top: 873px;
-        a {
-            color: white;
-        }
-    }
-}
 a {
     text-decoration: none;
 }
-#searching {
-    width: auto;
-    height: 68px;
-    background-color: #1B1C21;
-    overflow: auto;
 
-    #searchInput {
-        width: 548px;
-        height: 36px;
-        background-color: #2E3034;
-        box-sizing: border-box;
-        flex-direction: row;
-        align-items: center;
-        padding: 10px 8px;
-        border: transparent;
-        border-radius: 6px;
-        outline: none;
-        text-indent: 30px;
-        margin-left: 23px;
-        margin-top: 16px;
-        background-image: url('../images/Search.png');
-        background-repeat: no-repeat;
-        background-position: 8px 10px;
-        background-size: 16px;
-        color: white;
-    }
-    #cartVector {
-        @include dashboardImages;
-        top: 22px;
-        margin-left: 714px;
-        cursor: pointer;
-    }
-    #notificationVector {
-        position: absolute;
-        top: 24px;
-        margin-left: 754px;
-        cursor: pointer;
-    }
-    #account {
-        width: 36px;
-        height: 36px;
-        border: transparent;
-        border-radius: 360px;
-        background-color: white;
-        position: absolute;
-        top: 16px;
-        margin-left: 1374px;
-    }
-}
 #footballMatch {
     width: 1030px;
     height: 97px;
@@ -365,6 +66,9 @@ a {
         top: 132px;
     }
 }
+li {
+    list-style-type: none;
+}
 .latestScore {
     display: flex;
     flex-direction: row;
@@ -383,7 +87,7 @@ a {
         position: absolute;
         left: 30px;
     }
-    span:nth-child(2) {
+    li:nth-child(2) {
         position: absolute;
         left: 77px;
         font-family: $inter;
@@ -392,7 +96,9 @@ a {
         line-height: 19px;
         display: flex;
         align-items: center;
+        a {
         color: #FFFFFF;
+        }
     }
     .latestMatchScore {
         width: 64px;
@@ -416,10 +122,10 @@ a {
             align-items: center;
             text-align: center;
             color: #F5C451;
-            margin-lefT: 17px;
+            margin-lefT: 16px;
         }
     }
-    span:nth-child(4) {
+    li:nth-child(4) {
         position: absolute;
         right: 585px;
         font-family: $inter;
@@ -429,7 +135,9 @@ a {
         display: flex;
         align-items: center;
         text-align: right;
+        a {
         color: #FFFFFF;
+        }
     }
     img:nth-child(5) {
         position: absolute;

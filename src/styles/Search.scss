@@ -1,0 +1,54 @@
+@mixin dashboardImages() {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+#searching {
+    width: auto;
+    height: 68px;
+    background-color: #1B1C21;
+    overflow: auto;
+
+    #searchInput {
+        width: 548px;
+        height: 36px;
+        background-color: #2E3034;
+        box-sizing: border-box;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 8px;
+        border: transparent;
+        border-radius: 6px;
+        outline: none;
+        text-indent: 30px;
+        margin-left: 23px;
+        margin-top: 16px;
+        background-image: url('../images/Search.png');
+        background-repeat: no-repeat;
+        background-position: 8px 10px;
+        background-size: 16px;
+        color: white;
+    }
+    #cartVector {
+        @include dashboardImages;
+        top: 22px;
+        margin-left: 714px;
+        cursor: pointer;
+    }
+    #notificationVector {
+        position: absolute;
+        top: 24px;
+        margin-left: 754px;
+        cursor: pointer;
+    }
+    #account {
+        width: 36px;
+        height: 36px;
+        border: transparent;
+        border-radius: 360px;
+        background-color: white;
+        position: absolute;
+        top: 16px;
+        margin-left: 1374px;
+    }
+}

@@ -1,0 +1,67 @@
+$inter: 'Inter', sans-serif;
+$myGray: #A4A4A4;
+.PremierLeague {
+    background-color: #212227;
+    height: 1000px;
+}
+#stablePremierLeague {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 32px;
+    margin-top: 40px;
+    position: relative;
+    left: 80px;
+}
+a {
+    text-decoration: none;
+}
+#tablePremierLeague {
+    img:nth-child(1) {
+        width: 32px;
+        height: 32px;
+        position: relative;
+        left: 80px;
+        top: 40px;
+    }
+    img:nth-child(2) {
+        width: 32px;
+        height: 32px;
+        position: relative;
+        left: 90px;
+        top: 40px;
+    }
+    span:nth-child(3) {
+        font-family: $inter;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 200px;
+        top: 10px;
+        color: #FFFFFF;
+    }
+}
+#caption {
+    width: 1030px;
+    height: 65px;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    display: flex;
+    font-family: $inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: $myGray;
+}
+.tableStandings {
+    position: relative;
+    top: 200px;
+}

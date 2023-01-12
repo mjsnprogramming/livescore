@@ -1,0 +1,55 @@
+$inter: 'Inter', sans-serif;
+
+.Standings {
+    background-color: #212227;
+    height: 1000px;
+}
+#standingsOverall {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 32px;
+    margin-top: 40px;
+    position: relative;
+    left: 80px;
+}
+a {
+    text-decoration: none;
+}
+.leagues {
+    width: 1030px;
+    height: 65px;
+    background-color: #1B1C21;
+    margin-top: 30px;
+    img:nth-child(1) {
+        width: 32px;
+        height: 32px;
+        position: relative;
+        display: flex;
+        top: 15px;
+        left: 40px;
+    }
+    img:nth-child(2) {
+        width: 34px;
+        height: 34px;
+        position: relative;
+        display: flex;
+        top: -15px;
+        left: 100px;
+    }
+    span:nth-child(3) {
+        font-family: $inter;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        position: relative;
+        top: -45px;
+        left: 200px;
+        cursor: pointer;
+    }
+}

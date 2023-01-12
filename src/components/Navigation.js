@@ -53,7 +53,7 @@ function Navigation() {
                 <img src = {LiveVector} id = "liveVector"/>
                 <li><Link to = "/Live">Live Football</Link></li>
                 <img src = {StandingsVector} id = "standingsVector"/>
-                <li><Link to = "/Standings">Standings</Link></li>
+                <li><Link to = "/Standings/Standings">Standings</Link></li>
                 <img src = {HighlightsVector} id = "highlightsVector"/>
                 <li><Link to = "/Highlights">Highlights</Link></li>
                 <img src = {ShopVector} id = "shopVector"/>
@@ -64,19 +64,19 @@ function Navigation() {
                 <div id = "footballLeague">
                     <span>FOOTBALL LEAGUE</span>
                     <img src = {ChampionsLeague} id = "championsLeague"/>
-                    <li><Link to = "/ChampionsLeague">Champions League</Link></li>
+                    <li><Link to = "/Standings/ChampionsLeague">Champions League</Link></li>
                     <img src = {PremierLeague} id = "premierLeague"/>
-                    <li><Link to = "/PremierLeague">Premier League</Link></li>
+                    <li><Link to = "/Standings/PremierLeague">Premier League</Link></li>
                     <img src = {LaLiga} id = "laLiga"/>
-                    <li><Link to = "/LaLiga">La Liga</Link></li>
+                    <li><Link to = "/Standings/LaLiga">La Liga</Link></li>
                     <img src = {Ligue1} id = "ligue1"/>
-                    <li><Link to = "/Ligue1">Ligue 1</Link></li>
+                    <li><Link to = "/Standings/Ligue1">Ligue 1</Link></li>
                     <img src = {SerieA} id = "serieA"/>
-                    <li><Link to = "/SerieA">Serie A</Link></li>
+                    <li><Link to = "/Standings/SerieA">Serie A</Link></li>
                     <img src = {Bundesliga} id = "bundesliga"/>
-                    <li><Link to = "/Bundesliga">Bundesliga</Link></li>
+                    <li><Link to = "/Standings/Bundesliga">Bundesliga</Link></li>
                     <img src = {Ekstraklasa} id = "ekstraklasa"/>
-                    <li><Link to = "/Ekstraklasa">Ekstraklasa</Link></li> 
+                    <li><Link to = "/Standings/Ekstraklasa">Ekstraklasa</Link></li> 
                 </div>
             </div>
             </div>

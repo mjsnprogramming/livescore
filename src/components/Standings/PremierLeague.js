@@ -1,4 +1,6 @@
-import '../../styles/PremierLeague.scss';
+
+import '../../styles/Tables.scss';
+import {Link} from 'react-router-dom';
 
 import Navigation from '../Navigation.js';
 import Search from '../Search.js';
@@ -53,7 +55,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>1</span>
                             <img src = {ArsenalLondon}/>
-                            <span>Arsenal</span>
+                            <li><Link to = "/PremierLeague/Clubs/Arsenal">Arsenal</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -70,7 +72,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>2</span>
                             <img src = {ManchesterCity}/>
-                            <span>Manchester City</span>
+                            <li><Link to = "/PremierLeague/Clubs/ManchesterCity">Manchester City</Link></li>
                             <span>17</span>
                             <span>12</span>
                             <span>3</span>
@@ -86,7 +88,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>3</span>
                             <img src = {Newcastle}/>
-                            <span>Newcastle</span>
+                            <li><Link to = "/PremierLeague/Clubs/Newcastle">Newcastle</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -102,7 +104,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>4</span>
                             <img src = {ManchesterUtd}/>
-                            <span>Manchester Utd</span>
+                            <li><Link to = "/PremierLeague/Clubs/ManchesterUnited">Manchester United</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -119,7 +121,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>5</span>
                             <img src = {Tottenham}/>
-                            <span>Tottenham</span>
+                            <li><Link to = "/PremierLeague/Clubs/Tottenham">Tottenham</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -135,7 +137,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>6</span>
                             <img src = {Liverpool}/>
-                            <span>Liverpool</span>
+                            <li><Link to = "/PremierLeague/Clubs/Liverpool">Liverpool</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -152,7 +154,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>7</span>
                             <img src = {Fulham}/>
-                            <span>Fulham</span>
+                            <li><Link to = "/PremierLeague/Clubs/Fulham">Fulham</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -169,7 +171,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>8</span>
                             <img src = {Brighton}/>
-                            <span>Brighton</span>
+                            <li><Link to = "/PremierLeague/Clubs/Brighton">Brighton</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -186,7 +188,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>9</span>
                             <img src = {Brentford}/>
-                            <span>Brentford</span>
+                            <li><Link to = "/PremierLeague/Clubs/Brentford">Brentford</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -203,7 +205,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>10</span>
                             <img src = {ChelseaLondon}/>
-                            <span>Chelsea</span>
+                            <li><Link to = "/PremierLeague/Clubs/Chelsea">Chelsea</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -220,7 +222,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>11</span>
                             <img src = {AstonVilla}/>
-                            <span>Aston Villa</span>
+                            <li><Link to = "/PremierLeague/Clubs/AstonVilla">Aston Villa</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -237,7 +239,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>12</span>
                             <img src = {CrystalPalace}/>
-                            <span>Crystal Palace</span>
+                            <li><Link to = "/PremierLeague/Clubs/Crystal Palace">Crystal Palace</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -254,7 +256,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>13</span>
                             <img src = {Leicester}/>
-                            <span>Leicester</span>
+                            <li><Link to = "/PremierLeague/Clubs/Leicester">Leicester</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -271,7 +273,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>14</span>
                             <img src = {Leeds}/>
-                            <span>Leeds</span>
+                            <li><Link to = "/PremierLeague/Clubs/Leeds">Leeds</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -288,7 +290,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>15</span>
                             <img src = {Nottingham}/>
-                            <span>Nottingham</span>
+                            <li><Link to = "/PremierLeague/Clubs/Nottingham">Nottingham</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -305,7 +307,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>16</span>
                             <img src = {Bournemouth}/>
-                            <span>Bournemouth</span>
+                            <li><Link to = "/PremierLeague/Clubs/Bournemouth">Bournemouth</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -322,7 +324,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>17</span>
                             <img src = {WestHamUnited}/>
-                            <span>WestHamUnited</span>
+                            <li><Link to = "/PremierLeague/Clubs/WestHamUnited">West Ham United</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -339,7 +341,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>18</span>
                             <img src = {Everton}/>
-                            <span>Everton</span>
+                            <li><Link to = "/PremierLeague/Clubs/Everton">Everton</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -356,7 +358,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>19</span>
                             <img src = {Wolves}/>
-                            <span>Wolves</span>
+                            <li><Link to = "/PremierLeague/Clubs/Wolves">Wolves</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -373,7 +375,7 @@ function PremierLeague() {
                         <div className = "tableStandings">
                             <span>20</span>
                             <img src = {Southampton}/>
-                            <span>Southampton</span>
+                            <li><Link to = "/PremierLeague/Clubs/Southampton">Southampton</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>

@@ -52,7 +52,7 @@ function Standings() {
                         </li>        
 
                         <li>
-                            <Link to = "Standings/LaLiga">
+                            <Link to = "/Standings/LaLiga">
                                 <div id = "laLiga" className = "leagues">
                                     <img src = {Spain}/>
                                     <img src = {LaLiga}/>

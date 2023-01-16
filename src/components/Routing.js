@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './Home.js';
 import Standings from './Standings/Standings.js';
 import PremierLeague from './Standings/PremierLeague.js';
+import LaLiga from './Standings/LaLiga.js';
 
 const Routing = () => {
     return (
@@ -10,6 +11,7 @@ const Routing = () => {
             <Route exact path = '/' element = {<Home/>}></Route>
             <Route exact path = '/Standings/Standings' element = {<Standings/>}></Route>
             <Route exact path = '/Standings/PremierLeague' element = {<PremierLeague/>}></Route>
+            <Route exact path = '/Standings/LaLiga' element = {<LaLiga/>}></Route>
         </Routes>
     )
 }

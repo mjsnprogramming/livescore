@@ -19,9 +19,9 @@ $myGray: #A4A4A4;
 #caption {
     width: 1000px;
     height: 20px;
-    position: absolute;
-    top: 150px;
-    left: 630px;
+    position: relative;
+    top: 40px;
+    left: 5px;
     display: flex;
     font-family: $inter;
     font-weight: 400;
@@ -62,7 +62,6 @@ $myGray: #A4A4A4;
 .tableStandings {
     position: relative;
     top: 50px;
-    left: 170px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -131,5 +130,13 @@ $myGray: #A4A4A4;
 #secondPlace,
 #thirdPlace,
 #fourthPlace {
-    background-color: rgb(0, 70, 130) !important;
+    background-color: rgb(0, 70, 130);
+}
+#fifthPlace {
+    background-color: rgb(127, 0, 41);
+}
+#firstRelegate,
+#secondRelegate,
+#thirdRelegate {
+    background-color: rgb(189, 0, 0);
 }

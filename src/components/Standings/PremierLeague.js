@@ -119,7 +119,7 @@ function PremierLeague() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings">
+                        <div className = "tableStandings" id = "fifthPlace">
                             <span>5</span>
                             <img src = {Tottenham}/>
                             <li><Link to = "/PremierLeague/Clubs/Tottenham">Tottenham</Link></li>
@@ -339,7 +339,7 @@ function PremierLeague() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings">
+                        <div className = "tableStandings" id = "firstRelegate">
                             <span>18</span>
                             <img src = {Everton}/>
                             <li><Link to = "/PremierLeague/Clubs/Everton">Everton</Link></li>
@@ -356,7 +356,7 @@ function PremierLeague() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings">
+                        <div className = "tableStandings" id = "secondRelegate">
                             <span>19</span>
                             <img src = {Wolves}/>
                             <li><Link to = "/PremierLeague/Clubs/Wolves">Wolves</Link></li>
@@ -373,7 +373,7 @@ function PremierLeague() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings">
+                        <div className = "tableStandings" id = "thirdRelegate">
                             <span>20</span>
                             <img src = {Southampton}/>
                             <li><Link to = "/PremierLeague/Clubs/Southampton">Southampton</Link></li>
@@ -388,6 +388,21 @@ function PremierLeague() {
                             <button></button>
                             <button></button>
                             <button></button>
+                        </div>
+
+                        <div id = "championsLeagueAdvance">
+                            <div id = "championsLeagueAdvanceColor"></div>
+                            <span>Champions League</span>
+                        </div>
+
+                        <div id = "europaLeagueAdvance">
+                            <div id = "europaLeagueAdvanceColor"></div>
+                            <span>Europa League</span>
+                        </div>
+
+                        <div id = "relegations">
+                            <div id = "relegationsColor"></div>
+                            <span>Relegations - Championship</span>
                         </div>
                 </div>
                 

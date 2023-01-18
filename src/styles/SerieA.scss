@@ -1,0 +1,41 @@
+$inter: 'Inter', sans-serif;
+.SerieA {
+    background-color: #212227;
+    height: 1500px;
+}
+a {
+    text-decoration: none;
+}
+#tableSerieA {
+    position: relative;
+    left: 170px;
+    width: 1020px;
+    height: 1200px;
+    float: left;
+    #italyTableImage {
+        width: 32px;
+        height: 32px;
+        position: relative;
+        left: 30px;
+        top: 20px;
+    }
+    #serieATableImage {
+        width: 32px;
+        height: 32px;
+        position: relative;
+        left: 40px;
+        top: 20px;
+    }
+    #serieATableSpan {
+        font-family: $inter;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 130px;
+        top: -8px;
+        color: #FFFFFF;
+    }
+}

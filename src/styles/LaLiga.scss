@@ -7,21 +7,23 @@ a {
     text-decoration: none;
 }
 #tableLaLiga {
-    width: 1000px;
+    position: relative;
+    left: 170px;
+    width: 1020px;
     height: 1200px;
     float: left;
     #spainTableImage {
         width: 32px;
         height: 32px;
         position: relative;
-        left: 170px;
+        left: 30px;
         top: 20px;
     }
     #laLigaTableImage {
         width: 32px;
         height: 32px;
         position: relative;
-        left: 180px;
+        left: 40px;
         top: 20px;
     }
     #laLigaTableSpan {
@@ -32,7 +34,7 @@ a {
         display: flex;
         align-items: center;
         position: relative;
-        left: 260px;
+        left: 130px;
         top: -8px;
         color: #FFFFFF;
     }

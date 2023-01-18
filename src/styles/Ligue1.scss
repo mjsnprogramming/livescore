@@ -1,32 +1,32 @@
 $inter: 'Inter', sans-serif;
-.PremierLeague {
+.Ligue1 {
     background-color: #212227;
     height: 1500px;
 }
 a {
     text-decoration: none;
 }
-#tablePremierLeague {
+#tableLigue1 {
     position: relative;
     left: 170px;
     width: 1020px;
     height: 1200px;
     float: left;
-    #englandTableImage {
+    #franceTableImage {
         width: 32px;
         height: 32px;
         position: relative;
         left: 30px;
         top: 20px;
     }
-    #premierLeagueTableImage {
+    #ligue1TableImage {
         width: 32px;
         height: 32px;
         position: relative;
         left: 40px;
         top: 20px;
     }
-    #premierLeagueTableSpan {
+    #ligue1TableSpan {
         font-family: $inter;
         font-weight: 600;
         font-size: 16px;

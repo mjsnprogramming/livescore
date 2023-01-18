@@ -12,6 +12,33 @@ $myGray: #A4A4A4;
     text-align: center;
     color: white;
 }
+@mixin advance() {
+    width: 170px;
+    height: 17px;
+    position: relative;
+    left: 20px;
+}
+@mixin advanceSpan() {
+    font-family: $inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 22px;
+}
+@mixin advanceColor() {
+    width: 12px;
+    height: 12px;
+    border: transparent;
+    border-radius: 360px;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+}
 .PremierLeague {
     background-color: #212227;
     height: 1500px;
@@ -135,8 +162,69 @@ $myGray: #A4A4A4;
 #fifthPlace {
     background-color: rgb(127, 0, 41);
 }
+#sixthPlace {
+    background-color: rgb(184, 134, 11);
+}
 #firstRelegate,
 #secondRelegate,
-#thirdRelegate {
+#thirdRelegate,
+#fourthRelegate {
+    background-color: rgb(189, 0, 0);
+}
+#championsLeagueAdvance {
+    @include advance;
+    top: 65px;
+    span {
+        @include advanceSpan;
+    }
+}
+#championsLeagueAdvanceColor {
+    @include advanceColor;
+    background-color: rgb(0, 70, 130);
+}
+#championsLeagueQualifying {
+    @include advance;
+    top: 75px;
+    width: 300px;
+    span {
+        @include advanceSpan;
+    }
+}
+#championsLeagueQualifyingColor {
+    @include advanceColor;
+    background-color: rgb(30, 168, 236);
+}
+#europaLeagueAdvance {
+    @include advance;
+    top: 80px;
+    span {
+        @include advanceSpan;
+    }
+}
+#europaLeagueAdvanceColor {
+    @include advanceColor;
+    background-color: rgb(127, 0, 41);
+}
+#conferenceLeagueAdvance {
+    @include advance;
+    top: 85px;
+    span {
+        @include advanceSpan;
+    }
+}
+#conferenceLeagueAdvanceColor {
+    @include advanceColor;
+    background-color: rgb(184, 134, 11);
+}
+#relegations {
+    @include advance;
+    top: 95px;
+    width: 200px;
+    span {
+        @include advanceSpan;
+    }
+}
+#relegationsColor {
+    @include advanceColor;
     background-color: rgb(189, 0, 0);
 }

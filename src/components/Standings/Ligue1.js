@@ -1,46 +1,44 @@
-import '../../styles/LaLiga.scss';
+import '../../styles/Ligue1.scss';
 import '../../styles/Tables.scss';
 import { Link } from 'react-router-dom';
-
 import Navigation from '../Navigation.js';
-import Search from '../Search.js';
-
-import Spain from '../../images/Spain.png';
-import LaLigaImage from '../../images/LaLiga.png';
-import Barcelona from '../../images/LaLiga/Barcelona.png';
-import RealMadrid from '../../images/LaLiga/RealMadrid.png';
-import RealSociedad from '../../images/LaLiga/RealSociedad.png';
-import Atletico from '../../images/LaLiga/Atletico.png';
-import Villarreal from '../../images/LaLiga/Villarreal.png';
-import Betis from '../../images/LaLiga/Betis.png';
-import Osasuna from '../../images/LaLiga/Osasuna.png';
-import AthleticBilbao from '../../images/LaLiga/AthleticBilbao.png';
-import Rayo from '../../images/LaLiga/Rayo.png';
-import Mallorca from '../../images/LaLiga/Mallorca.png';
-import Girona from '../../images/LaLiga/Girona.png';
-import Valencia from '../../images/LaLiga/Valencia.png';
-import Almeria from '../../images/LaLiga/Almeria.png';
-import Espanyol from '../../images/LaLiga/Espanyol.png';
-import Getafe from '../../images/LaLiga/Getafe.png';
-import CeltaVigo from '../../images/LaLiga/CeltaVigo.png';
-import Valladolid from '../../images/LaLiga/Valladolid.png';
-import Sevilla from '../../images/LaLiga/Sevilla.png';
-import Cadiz from '../../images/LaLiga/Cadiz.png';
-import Elche from '../../images/LaLiga/Elche.png';
+import Search from '../Search';
 
 
+import France from '../../images/France.png';
+import Ligue1Image from '../../images/Ligue1.png';
+import PSG from '../../images/Ligue1/PSG.png';
+import Lens from '../../images/Ligue1/Lens.png';
+import Marseille from '../../images/Ligue1/Marseille.png';
+import Monaco from '../../images/Ligue1/Monaco.png';
+import Rennes from '../../images/Ligue1/Rennes.png';
+import Lille from '../../images/Ligue1/Lille.png';
+import Lorient from '../../images/Ligue1/Lorient.png';
+import Clermont from '../../images/Ligue1/Clermont.png';
+import Lyon from '../../images/Ligue1/Lyon.png';
+import Nice from '../../images/Ligue1/Nice.png';
+import Reims from '../../images/Ligue1/Reims.png';
+import Toulouse from '../../images/Ligue1/Toulouse.png';
+import Nantes from '../../images/Ligue1/Nantes.png';
+import Troyes from '../../images/Ligue1/Troyes.png';
+import Montpellier from '../../images/Ligue1/Montpellier.png';
+import Strasbourg from '../../images/Ligue1/Strasbourg.png';
+import Brest from '../../images/Ligue1/Brest.png';
+import Ajaccio from '../../images/Ligue1/Ajaccio.png';
+import Auxerre from '../../images/Ligue1/Auxerre.png';
+import Angers from '../../images/Ligue1/Angers.png';
 
-function LaLiga() {
-    return(
-        <div className = "LaLiga">
-            <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
-                <Navigation/>
-                <Search/>
+function Ligue1() {
+    return (
+        <div className = "Ligue1">
+            <Navigation/>
+            <Search/>
 
-                <div id = "tableLaLiga">
-                    <img src = {Spain} id = "spainTableImage"/>
-                    <img src = {LaLigaImage} id = "laLigaTableImage"/>
-                    <span id = "laLigaTableSpan">La Liga</span>
+            <div id = "tableLigue1">
+                <img src = {France} id = "franceTableImage"/>
+                <img src = {Ligue1Image} id = "ligue1TableImage"/>
+                <span id = "ligue1TableSpan">Ligue 1</span>
+            
 
                         <div id = "caption">
                             <span>Club</span>
@@ -55,8 +53,8 @@ function LaLiga() {
 
                         <div className = "tableStandings" id = "firstPlace">
                             <span>1</span>
-                            <img src = {Barcelona}/>
-                            <li><Link to = "/LaLiga/Clubs/Barcelona">Barcelona</Link></li>
+                            <img src = {PSG}/>
+                            <li><Link to = "/Ligue1/Clubs/PSG">PSG</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -72,8 +70,8 @@ function LaLiga() {
 
                         <div className = "tableStandings" id = "secondPlace">
                             <span>2</span>
-                            <img src = {RealMadrid}/>
-                            <li><Link to = "/LaLiga/Clubs/RealMadrid">Real Madrid</Link></li>
+                            <img src = {Lens}/>
+                            <li><Link to = "/Ligue1/Clubs/Lens">Lens</Link></li>
                             <span>17</span>
                             <span>12</span>
                             <span>3</span>
@@ -88,8 +86,8 @@ function LaLiga() {
                         </div>
                         <div className = "tableStandings" id = "thirdPlace">
                             <span>3</span>
-                            <img src = {RealSociedad}/>
-                            <li><Link to = "/LaLiga/Clubs/RealSociedad">Real Sociedad</Link></li>
+                            <img src = {Marseille}/>
+                            <li><Link to = "/Ligue1/Clubs/Marseille">Marseille</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -104,8 +102,8 @@ function LaLiga() {
                         </div>
                         <div className = "tableStandings" id = "fourthPlace">
                             <span>4</span>
-                            <img src = {Atletico}/>
-                            <li><Link to = "/LaLiga/Clubs/Atletico">Atletico</Link></li>
+                            <img src = {Monaco}/>
+                            <li><Link to = "/Ligue1/Clubs/Monaco">Monaco</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -121,8 +119,8 @@ function LaLiga() {
 
                         <div className = "tableStandings" id = "fifthPlace">
                             <span>5</span>
-                            <img src = {Villarreal}/>
-                            <li><Link to = "/LaLiga/Clubs/Villarreal">Villarreal</Link></li>
+                            <img src = {Rennes}/>
+                            <li><Link to = "/Ligue1/Clubs/Rennes">Rennes</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -135,10 +133,10 @@ function LaLiga() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "sixthPlace">
+                        <div className = "tableStandings">
                             <span>6</span>
-                            <img src = {Betis}/>
-                            <li><Link to = "/LaLiga/Clubs/Betis">Betis</Link></li>
+                            <img src = {Lille}/>
+                            <li><Link to = "/Ligue1/Clubs/Lille">Lille</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -154,8 +152,8 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>7</span>
-                            <img src = {Osasuna}/>
-                            <li><Link to = "/LaLiga/Clubs/Osasuna">Osasuna</Link></li>
+                            <img src = {Lorient}/>
+                            <li><Link to = "/Ligue1/Clubs/Lorient">Lorient</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -171,8 +169,8 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>8</span>
-                            <img src = {AthleticBilbao}/>
-                            <li><Link to = "/LaLiga/Clubs/AthleticBilbao">Athletic Bilbao</Link></li>
+                            <img src = {Clermont}/>
+                            <li><Link to = "/Ligue1/Clubs/Clermont">Clermont</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -188,8 +186,8 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>9</span>
-                            <img src = {Rayo}/>
-                            <li><Link to = "/LaLiga/Clubs/Rayo">Rayo</Link></li>
+                            <img src = {Lyon}/>
+                            <li><Link to = "/Ligue1/Clubs/Lyon">Lyon</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -205,8 +203,8 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>10</span>
-                            <img src = {Mallorca}/>
-                            <li><Link to = "/LaLiga/Clubs/Mallorca">Mallorca</Link></li>
+                            <img src = {Nice}/>
+                            <li><Link to = "/Ligue1/Clubs/Nice">Nice</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -222,8 +220,8 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>11</span>
-                            <img src = {Girona}/>
-                            <li><Link to = "/LaLiga/Clubs/Girona">Girona</Link></li>
+                            <img src = {Reims}/>
+                            <li><Link to = "/Ligue1/Clubs/Reims">Reims</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -239,8 +237,8 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>12</span>
-                            <img src = {Valencia}/>
-                            <li><Link to = "/LaLiga/Clubs/Valencia">Valencia</Link></li>
+                            <img src = {Toulouse}/>
+                            <li><Link to = "/Ligue1/Clubs/Toulouse">Toulouse</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -256,8 +254,8 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>13</span>
-                            <img src = {Almeria}/>
-                            <li><Link to = "/LaLiga/Clubs/Almeria">Almeria</Link></li>
+                            <img src = {Nantes}/>
+                            <li><Link to = "/Ligue1/Clubs/Nantes">Nantes</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -273,8 +271,8 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>14</span>
-                            <img src = {Espanyol}/>
-                            <li><Link to = "/LaLiga/Clubs/Espanyol">Espanyol</Link></li>
+                            <img src = {Troyes}/>
+                            <li><Link to = "/Ligue1/Clubs/Troyes">Troyes</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -290,8 +288,8 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>15</span>
-                            <img src = {Getafe}/>
-                            <li><Link to = "/LaLiga/Clubs/Getafe">Getafe</Link></li>
+                            <img src = {Montpellier}/>
+                            <li><Link to = "/Ligue1/Clubs/Montpellier">Montpellier</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -307,25 +305,8 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>16</span>
-                            <img src = {CeltaVigo}/>
-                            <li><Link to = "/LaLiga/Clubs/CeltaVigo">Celta Vigo</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
-                            <button></button>
-                            <button></button>
-                            <button></button>
-                            <button></button>
-                            <button></button>
-                        </div>
-
-                        <div className = "tableStandings">
-                            <span>17</span>
-                            <img src = {Valladolid}/>
-                            <li><Link to = "/LaLiga/Clubs/Valladolid">Valladolid</Link></li>
+                            <img src = {Strasbourg}/>
+                            <li><Link to = "/Ligue1/Clubs/Strasbourg">Strasbourg</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -340,9 +321,9 @@ function LaLiga() {
                         </div>
 
                         <div className = "tableStandings" id = "firstRelegate">
-                            <span>18</span>
-                            <img src = {Sevilla}/>
-                            <li><Link to = "/LaLiga/Clubs/Sevilla">Sevilla</Link></li>
+                            <span>17</span>
+                            <img src = {Brest}/>
+                            <li><Link to = "/Ligue1/Clubs/Brest">Brest</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -357,9 +338,9 @@ function LaLiga() {
                         </div>
 
                         <div className = "tableStandings" id = "secondRelegate">
-                            <span>19</span>
-                            <img src = {Cadiz}/>
-                            <li><Link to = "/LaLiga/Clubs/Cadiz">Cadiz</Link></li>
+                            <span>18</span>
+                            <img src = {Ajaccio}/>
+                            <li><Link to = "/Ligue1/Clubs/Ajaccio">Ajaccio</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -374,9 +355,26 @@ function LaLiga() {
                         </div>
 
                         <div className = "tableStandings" id = "thirdRelegate">
+                            <span>19</span>
+                            <img src = {Auxerre}/>
+                            <li><Link to = "/Ligue1/Clubs/Auxerre">Auxerre</Link></li>
+                            <span>17</span>
+                            <span>14</span>
+                            <span>2</span>
+                            <span>1</span>
+                            <span>40-14</span>
+                            <span>44</span>
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                        </div>
+
+                        <div className = "tableStandings" id = "fourthRelegate">
                             <span>20</span>
-                            <img src = {Elche}/>
-                            <li><Link to = "/LaLiga/Clubs/Elche">Elche</Link></li>
+                            <img src = {Angers}/>
+                            <li><Link to = "/Ligue1/Clubs/Angers">Angers</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -395,6 +393,11 @@ function LaLiga() {
                             <span>Champions League</span>
                         </div>
 
+                        <div id = "championsLeagueQualifying">
+                            <div id = "championsLeagueQualifyingColor"></div>
+                            <span>Champions League(Qualifying Round)</span>
+                        </div>
+
                         <div id = "europaLeagueAdvance">
                             <div id = "europaLeagueAdvanceColor"></div>
                             <span>Europa League</span>
@@ -407,12 +410,11 @@ function LaLiga() {
 
                         <div id = "relegations">
                             <div id = "relegationsColor"></div>
-                            <span>Relegations - La Liga 2</span>
+                            <span>Relegations - Ligue 2</span>
                         </div>
-                </div>
-                
+            </div>
         </div>
     )
 }
 
-export default LaLiga;
+export default Ligue1;

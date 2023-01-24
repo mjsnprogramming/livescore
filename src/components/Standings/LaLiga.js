@@ -53,7 +53,7 @@ function LaLiga() {
                             <span>Form</span>
                         </div>
 
-                        <div className = "tableStandings" id = "firstPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>1</span>
                             <img src = {Barcelona}/>
                             <li><Link to = "/LaLiga/Clubs/Barcelona">Barcelona</Link></li>
@@ -70,7 +70,7 @@ function LaLiga() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "secondPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>2</span>
                             <img src = {RealMadrid}/>
                             <li><Link to = "/LaLiga/Clubs/RealMadrid">Real Madrid</Link></li>
@@ -86,7 +86,7 @@ function LaLiga() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "thirdPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>3</span>
                             <img src = {RealSociedad}/>
                             <li><Link to = "/LaLiga/Clubs/RealSociedad">Real Sociedad</Link></li>
@@ -102,7 +102,7 @@ function LaLiga() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "fourthPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>4</span>
                             <img src = {Atletico}/>
                             <li><Link to = "/LaLiga/Clubs/Atletico">Atletico</Link></li>
@@ -119,7 +119,7 @@ function LaLiga() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "fifthPlace">
+                        <div className = "tableStandings europaLeagueAdvance">
                             <span>5</span>
                             <img src = {Villarreal}/>
                             <li><Link to = "/LaLiga/Clubs/Villarreal">Villarreal</Link></li>
@@ -135,7 +135,7 @@ function LaLiga() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "sixthPlace">
+                        <div className = "tableStandings conferenceLeagueAdvance">
                             <span>6</span>
                             <img src = {Betis}/>
                             <li><Link to = "/LaLiga/Clubs/Betis">Betis</Link></li>
@@ -339,7 +339,7 @@ function LaLiga() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "firstRelegate">
+                        <div className = "tableStandings relegate">
                             <span>18</span>
                             <img src = {Sevilla}/>
                             <li><Link to = "/LaLiga/Clubs/Sevilla">Sevilla</Link></li>
@@ -356,7 +356,7 @@ function LaLiga() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "secondRelegate">
+                        <div className = "tableStandings relegate">
                             <span>19</span>
                             <img src = {Cadiz}/>
                             <li><Link to = "/LaLiga/Clubs/Cadiz">Cadiz</Link></li>
@@ -373,7 +373,7 @@ function LaLiga() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "thirdRelegate">
+                        <div className = "tableStandings relegate">
                             <span>20</span>
                             <img src = {Elche}/>
                             <li><Link to = "/LaLiga/Clubs/Elche">Elche</Link></li>

@@ -48,7 +48,7 @@ function Bundesliga() {
                             <span>Form</span>
                         </div>
 
-                        <div className = "tableStandings" id = "firstPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>1</span>
                             <img src = {Bayern}/>
                             <li><Link to = "/Bundesliga/Clubs/Bayern">Bayern</Link></li>
@@ -65,7 +65,7 @@ function Bundesliga() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "secondPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>2</span>
                             <img src = {Freiburg}/>
                             <li><Link to = "/Bundesliga/Clubs/Freiburg">Freiburg</Link></li>
@@ -81,7 +81,7 @@ function Bundesliga() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "thirdPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>3</span>
                             <img src = {Leipzig}/>
                             <li><Link to = "/Bundesliga/Clubs/Leipzig">RB Leipzig</Link></li>
@@ -97,7 +97,7 @@ function Bundesliga() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "fourthPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>4</span>
                             <img src = {Eintracht}/>
                             <li><Link to = "/Bundesliga/Clubs/Eintracht">Eintracht</Link></li>
@@ -114,7 +114,7 @@ function Bundesliga() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "fifthPlace">
+                        <div className = "tableStandings europaLeagueAdvance">
                             <span>5</span>
                             <img src = {Union}/>
                             <li><Link to = "/Bundesliga/Clubs/Union">Union</Link></li>
@@ -130,7 +130,7 @@ function Bundesliga() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings">
+                        <div className = "tableStandings conferenceLeagueAdvance">
                             <span>6</span>
                             <img src = {BorussiaDortmund}/>
                             <li><Link to = "/Bundesliga/Clubs/BorussiaDortmund">Borussia Dortmund</Link></li>
@@ -300,7 +300,7 @@ function Bundesliga() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings">
+                        <div className = "tableStandings relegateExtraGame">
                             <span>16</span>
                             <img src = {Stuttgart}/>
                             <li><Link to = "/Bundesliga/Clubs/Stuttgart">Stuttgart</Link></li>
@@ -317,7 +317,7 @@ function Bundesliga() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings">
+                        <div className = "tableStandings relegate">
                             <span>17</span>
                             <img src = {Bochum}/>
                             <li><Link to = "/Bundesliga/Clubs/Bochum">Bochum</Link></li>
@@ -334,7 +334,7 @@ function Bundesliga() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "firstRelegate">
+                        <div className = "tableStandings relegate">
                             <span>18</span>
                             <img src = {Schalke}/>
                             <li><Link to = "/Bundesliga/Clubs/Schalke">Schalke</Link></li>

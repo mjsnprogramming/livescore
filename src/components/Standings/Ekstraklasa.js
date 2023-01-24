@@ -49,7 +49,7 @@ function Ekstraklasa() {
                             <span>Form</span>
                         </div>
 
-                        <div className = "tableStandings" id = "firstPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>1</span>
                             <img src = {Rakow}/>
                             <li><Link to = "/Ekstraklasa/Clubs/Rakow">Raków Częstochowa</Link></li>
@@ -66,7 +66,7 @@ function Ekstraklasa() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "secondPlace">
+                        <div className = "tableStandings europaLeagueAdvance">
                             <span>2</span>
                             <img src = {Legia}/>
                             <li><Link to = "/Ekstraklasa/Clubs/Legia">Legia Warszawa</Link></li>
@@ -82,7 +82,7 @@ function Ekstraklasa() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "thirdPlace">
+                        <div className = "tableStandings europaLeagueAdvance">
                             <span>3</span>
                             <img src = {Widzew}/>
                             <li><Link to = "/Ekstraklasa/Clubs/Widzew">Widzew Łódź</Link></li>
@@ -98,7 +98,7 @@ function Ekstraklasa() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "fourthPlace">
+                        <div className = "tableStandings">
                             <span>4</span>
                             <img src = {Pogon}/>
                             <li><Link to = "/Ekstraklasa/Clubs/Pogon">Pogoń Szczecin</Link></li>
@@ -115,7 +115,7 @@ function Ekstraklasa() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "fifthPlace">
+                        <div className = "tableStandings">
                             <span>5</span>
                             <img src = {WislaPlock}/>
                             <li><Link to = "/Ekstraklasa/Clubs/WislaPlock">Wisła Płock</Link></li>
@@ -301,7 +301,7 @@ function Ekstraklasa() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings">
+                        <div className = "tableStandings relegate">
                             <span>16</span>
                             <img src = {Piast}/>
                             <li><Link to = "/Ekstraklasa/Clubs/Piast">Piast Gliwice</Link></li>
@@ -318,7 +318,7 @@ function Ekstraklasa() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings">
+                        <div className = "tableStandings relegate">
                             <span>17</span>
                             <img src = {Korona}/>
                             <li><Link to = "/Ekstraklasa/Clubs/Korona">Korona Kielce</Link></li>
@@ -335,7 +335,7 @@ function Ekstraklasa() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "firstRelegate">
+                        <div className = "tableStandings relegate">
                             <span>18</span>
                             <img src = {Miedz}/>
                             <li><Link to = "/Ekstraklasa/Clubs/Miedz">Miedź Legnica</Link></li>
@@ -354,17 +354,17 @@ function Ekstraklasa() {
 
                         <div id = "championsLeagueAdvance">
                             <div id = "championsLeagueAdvanceColor"></div>
-                            <span>Champions League</span>
+                            <span>Champions League (Qualifying Round)</span>
                         </div>
 
                         <div id = "europaLeagueAdvance">
                             <div id = "europaLeagueAdvanceColor"></div>
-                            <span>Europa League</span>
+                            <span>Europa League (Qualifying Round)</span>
                         </div>
 
                         <div id = "relegations">
                             <div id = "relegationsColor"></div>
-                            <span>Relegations - 2 Bundesliga</span>
+                            <span>Relegations - 1 Liga</span>
                         </div>
                         </div>
         </div>

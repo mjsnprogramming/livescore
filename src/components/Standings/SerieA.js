@@ -51,7 +51,7 @@ function SerieA() {
                             <span>Form</span>
                         </div>
 
-                        <div className = "tableStandings" id = "firstPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>1</span>
                             <img src = {Napoli}/>
                             <li><Link to = "/SerieA/Clubs/Napoli">Napoli</Link></li>
@@ -68,7 +68,7 @@ function SerieA() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "secondPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>2</span>
                             <img src = {Milan}/>
                             <li><Link to = "/SerieA/Clubs/Milan">Milan</Link></li>
@@ -84,7 +84,7 @@ function SerieA() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "thirdPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>3</span>
                             <img src = {Juventus}/>
                             <li><Link to = "/SerieA/Clubs/Juventus">Juventus</Link></li>
@@ -100,7 +100,7 @@ function SerieA() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "fourthPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>4</span>
                             <img src = {Inter}/>
                             <li><Link to = "/SerieA/Clubs/Inter">Inter</Link></li>
@@ -117,7 +117,7 @@ function SerieA() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "fifthPlace">
+                        <div className = "tableStandings europaLeagueAdvance">
                             <span>5</span>
                             <img src = {Lazio}/>
                             <li><Link to = "/SerieA/Clubs/Lazio">Lazio</Link></li>
@@ -133,7 +133,7 @@ function SerieA() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings">
+                        <div className = "tableStandings europaLeagueAdvance">
                             <span>6</span>
                             <img src = {Atalanta}/>
                             <li><Link to = "/SerieA/Clubs/Atalanta">Atalanta</Link></li>
@@ -150,7 +150,7 @@ function SerieA() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings">
+                        <div className = "tableStandings conferenceLeagueAdvance">
                             <span>7</span>
                             <img src = {Roma}/>
                             <li><Link to = "/SerieA/Clubs/Roma">Roma</Link></li>
@@ -337,7 +337,7 @@ function SerieA() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "firstRelegate">
+                        <div className = "tableStandings relegate">
                             <span>18</span>
                             <img src = {Verona}/>
                             <li><Link to = "/SerieA/Clubs/Verona">Verona</Link></li>
@@ -354,7 +354,7 @@ function SerieA() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "secondRelegate">
+                        <div className = "tableStandings relegate">
                             <span>19</span>
                             <img src = {Sampdoria}/>
                             <li><Link to = "/SerieA/Clubs/Sampdoria">Sampdoria</Link></li>
@@ -371,7 +371,7 @@ function SerieA() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "thirdRelegate">
+                        <div className = "tableStandings relegate">
                             <span>20</span>
                             <img src = {Cremonese}/>
                             <li><Link to = "/SerieA/Clubs/Cremonese">Cremonese</Link></li>
@@ -400,7 +400,7 @@ function SerieA() {
 
                         <div id = "relegations">
                             <div id = "relegationsColor"></div>
-                            <span>Relegations - Serie 2</span>
+                            <span>Relegations - Serie B</span>
                         </div>
                         </div>
         </div>

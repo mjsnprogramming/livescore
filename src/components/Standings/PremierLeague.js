@@ -53,7 +53,7 @@ function PremierLeague() {
                             <span>Form</span>
                         </div>
 
-                        <div className = "tableStandings" id = "firstPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>1</span>
                             <img src = {ArsenalLondon}/>
                             <li><Link to = "/PremierLeague/Clubs/Arsenal">Arsenal</Link></li>
@@ -70,7 +70,7 @@ function PremierLeague() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "secondPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>2</span>
                             <img src = {ManchesterCity}/>
                             <li><Link to = "/PremierLeague/Clubs/ManchesterCity">Manchester City</Link></li>
@@ -86,7 +86,7 @@ function PremierLeague() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "thirdPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>3</span>
                             <img src = {Newcastle}/>
                             <li><Link to = "/PremierLeague/Clubs/Newcastle">Newcastle</Link></li>
@@ -102,7 +102,7 @@ function PremierLeague() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "fourthPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>4</span>
                             <img src = {ManchesterUtd}/>
                             <li><Link to = "/PremierLeague/Clubs/ManchesterUnited">Manchester United</Link></li>
@@ -119,7 +119,7 @@ function PremierLeague() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "fifthPlace">
+                        <div className = "tableStandings europaLeagueAdvance">
                             <span>5</span>
                             <img src = {Tottenham}/>
                             <li><Link to = "/PremierLeague/Clubs/Tottenham">Tottenham</Link></li>
@@ -339,7 +339,7 @@ function PremierLeague() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "firstRelegate">
+                        <div className = "tableStandings relegate">
                             <span>18</span>
                             <img src = {Everton}/>
                             <li><Link to = "/PremierLeague/Clubs/Everton">Everton</Link></li>
@@ -356,7 +356,7 @@ function PremierLeague() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "secondRelegate">
+                        <div className = "tableStandings relegate">
                             <span>19</span>
                             <img src = {Wolves}/>
                             <li><Link to = "/PremierLeague/Clubs/Wolves">Wolves</Link></li>
@@ -373,7 +373,7 @@ function PremierLeague() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "thirdRelegate">
+                        <div className = "tableStandings relegate">
                             <span>20</span>
                             <img src = {Southampton}/>
                             <li><Link to = "/PremierLeague/Clubs/Southampton">Southampton</Link></li>

@@ -17,7 +17,7 @@ $myGray: #A4A4A4;
 }
 #navbar {
     width: 72px;
-    height: 1012px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -72,15 +72,15 @@ $myGray: #A4A4A4;
 }
 #infoVector {
     position: absolute;
-    top: 904px;
+    top: 834px;
 }
 #commentaryVector {
     position: absolute;
-    top: 960px;
+    top: 880px;
 }
 #dashboard {
     width: 283px;
-    height: 1012px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 24px 24px 28px;
@@ -268,4 +268,9 @@ $myGray: #A4A4A4;
 }
 a {
     text-decoration: none;
+}
+@media screen and (max-width: 1630px) {
+    #dashboard {
+        display: none;
+    }
 }

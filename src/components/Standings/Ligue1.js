@@ -51,7 +51,7 @@ function Ligue1() {
                             <span>Form</span>
                         </div>
 
-                        <div className = "tableStandings" id = "firstPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>1</span>
                             <img src = {PSG}/>
                             <li><Link to = "/Ligue1/Clubs/PSG">PSG</Link></li>
@@ -68,7 +68,7 @@ function Ligue1() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "secondPlace">
+                        <div className = "tableStandings championsLeagueAdvance">
                             <span>2</span>
                             <img src = {Lens}/>
                             <li><Link to = "/Ligue1/Clubs/Lens">Lens</Link></li>
@@ -84,7 +84,7 @@ function Ligue1() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "thirdPlace">
+                        <div className = "tableStandings championsLeagueQualifying">
                             <span>3</span>
                             <img src = {Marseille}/>
                             <li><Link to = "/Ligue1/Clubs/Marseille">Marseille</Link></li>
@@ -100,7 +100,7 @@ function Ligue1() {
                             <button></button>
                             <button></button>
                         </div>
-                        <div className = "tableStandings" id = "fourthPlace">
+                        <div className = "tableStandings europaLeagueAdvance">
                             <span>4</span>
                             <img src = {Monaco}/>
                             <li><Link to = "/Ligue1/Clubs/Monaco">Monaco</Link></li>
@@ -117,7 +117,7 @@ function Ligue1() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "fifthPlace">
+                        <div className = "tableStandings conferenceLeagueAdvance">
                             <span>5</span>
                             <img src = {Rennes}/>
                             <li><Link to = "/Ligue1/Clubs/Rennes">Rennes</Link></li>
@@ -320,7 +320,7 @@ function Ligue1() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "firstRelegate">
+                        <div className = "tableStandings relegate">
                             <span>17</span>
                             <img src = {Brest}/>
                             <li><Link to = "/Ligue1/Clubs/Brest">Brest</Link></li>
@@ -337,7 +337,7 @@ function Ligue1() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "secondRelegate">
+                        <div className = "tableStandings relegate">
                             <span>18</span>
                             <img src = {Ajaccio}/>
                             <li><Link to = "/Ligue1/Clubs/Ajaccio">Ajaccio</Link></li>
@@ -354,7 +354,7 @@ function Ligue1() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "thirdRelegate">
+                        <div className = "tableStandings relegate">
                             <span>19</span>
                             <img src = {Auxerre}/>
                             <li><Link to = "/Ligue1/Clubs/Auxerre">Auxerre</Link></li>
@@ -371,7 +371,7 @@ function Ligue1() {
                             <button></button>
                         </div>
 
-                        <div className = "tableStandings" id = "fourthRelegate">
+                        <div className = "tableStandings relegate">
                             <span>20</span>
                             <img src = {Angers}/>
                             <li><Link to = "/Ligue1/Clubs/Angers">Angers</Link></li>

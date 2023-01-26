@@ -2,6 +2,8 @@ $inter: 'Inter', sans-serif;
 .Bundesliga {
     background-color: #212227;
     height: 1500px;
+    width: 100%;
+    overflow: hidden;
 }
 a {
     text-decoration: none;
@@ -39,3 +41,17 @@ a {
         color: #FFFFFF;
     }
 }
+@media screen and (max-width: 1600px) {
+    #tableBundesliga {
+        position: relative;
+        top: 40%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (max-width: 1200px) {
+    #tableBundesliga {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+} 

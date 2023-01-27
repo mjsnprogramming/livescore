@@ -236,24 +236,51 @@ $myGray: #A4A4A4;
 }
 @media screen and (max-width: 1040px) {
     .tableStandings {
-        width: 560px;
+        width: 585px;
+        span:nth-child(4) {
+            left: 270px;
+        }
         span:nth-child(5) {
-            left: 542px;
+            left: 305px;
         }
         span:nth-child(6) {
-            left: 579px;
+            left: 335px;
         }
         span:nth-child(7) {
-            left: 609px;
+            left: 355px;
         }
         span:nth-child(9) {
-            left: 654px;
+            left: 380px;
         }
         span:nth-child(8) {
-            left: 707px;
+            left: 420px;
         }
         button {
-            left: 260px;
+            left: 275px;
+        }
+    }
+    #caption {
+        width: 590px;
+        span:nth-child(2) {
+            left: 268px;
+        }
+        span:nth-child(3) {
+            left: 302px;
+        }
+        span:nth-child(4) {
+            left: 329px;
+        }
+        span:nth-child(5) {
+            left: 351px;
+        }
+        span:nth-child(6) {
+            left: 378px;
+        }
+        span:nth-child(7) {
+            left: 429px;
+        }
+        span:nth-child(8) {
+            left: 505px;
         }
     }
 }

@@ -14,7 +14,6 @@ a {
     width: 1020px;
     height: 1200px;
     float: left;
-    background-color: aqua;
     #polandTableImage {
         width: 32px;
         height: 32px;
@@ -52,13 +51,17 @@ a {
 }
 @media screen and (max-width: 1200px) {
     #tableEkstraklasa {
+        position: relative;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 } 
 @media screen and (max-width: 1040px) {
     #tableEkstraklasa {
-        width: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 600px;
     }
     
 }

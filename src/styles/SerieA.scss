@@ -2,6 +2,8 @@ $inter: 'Inter', sans-serif;
 .SerieA {
     background-color: #212227;
     height: 1500px;
+    width: 100%;
+    overflow: hidden;
 }
 a {
     text-decoration: none;
@@ -39,3 +41,18 @@ a {
         color: #FFFFFF;
     }
 }
+@media screen and (max-width: 1600px) {
+    #tableSerieA {
+        position: relative;
+        top: 40%;
+        left: 45%;
+        transform: translate(-45%, -50%);
+    }
+}
+@media screen and (max-width: 1040px) {
+    #tableSerieA {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 600px;
+    }
+} 

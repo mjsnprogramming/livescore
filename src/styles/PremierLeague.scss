@@ -14,7 +14,6 @@ a {
     width: 1020px;
     height: 1200px;
     float: left;
-    background-color: aqua;
     #englandTableImage {
         width: 32px;
         height: 32px;
@@ -47,17 +46,13 @@ a {
         position: relative;
         top: 40%;
         left: 45%;
-        transform: translate(-50%, -50%);
+        transform: translate(-45%, -50%);
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1040px) {
     #tablePremierLeague {
         left: 50%;
         transform: translate(-50%, -50%);
+        width: 600px;
     }
 } 
-@media screen and (max-width: 560px) {
-    .PremierLeague {
-        width: 560px !important;
-    }
-}

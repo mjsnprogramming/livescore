@@ -1,8 +1,8 @@
-import '../styles/Home.scss';
+import '../styles/ComingMatch.scss';
 import { Link } from 'react-router-dom';
-import Navigation from './Navigation.js';
-import Search from './Search.js';
-import React  from 'react';
+import React from 'react';
+import Navigation from './Navigation';
+import Search from './Search';
 
 import FootballBall from '../images/FootballBall.png';
 import Argentina from '../images/Argentina.png';
@@ -18,13 +18,9 @@ import Poland from '../images/Poland.png';
 import Spain from '../images/Spain.png';
 import Czech from '../images/Czech.png';
 
-
-
-function Home() {
+function ComingMatch() {
     return (
-        <div className = "Home">
-            <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
-
+        <div className = "ComingMatch">
             <Navigation/>
             <Search/>
 
@@ -36,7 +32,7 @@ function Home() {
                     <li><Link to = "/LiveGames">Live Games</Link></li>
                 </ul>
                 <hr id = "footballMatchHR"></hr>
-                <hr id = "underlineFootballMatchHR"></hr>
+                <hr id = "underlineFootballMatchHRComingMatch"></hr>
             </div>
 
             <div id = "firstScore" className = "latestScore">
@@ -119,8 +115,7 @@ function Home() {
                 <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
             </div>
 
-
         </div>
     )
 }
-export default Home;
+export default ComingMatch;

@@ -31,7 +31,7 @@ function Navigation() {
     return (
         <div className = "Navigation">
         <div id = "navbar">
-                <img src = {MenuVector}/>
+                <Link to = "/"><img src = {MenuVector}></img></Link>
                 <img src = {FlameVector} id = "flameVector"/>
                 <img src = {CompassVector} id = "compassVector"/>
                 <img src = {CommentVector} id = "commentVector"/>
@@ -51,7 +51,7 @@ function Navigation() {
                 <img src = {DashboardVector} id = "dashboardVector"/>
                 <li><Link to = "/" className = "links">Dashboard</Link></li>
                 <img src = {LiveVector} id = "liveVector"/>
-                <li><Link to = "/Live">Live Football</Link></li>
+                <li><Link to = "/LiveGames">Live Football</Link></li>
                 <img src = {StandingsVector} id = "standingsVector"/>
                 <li><Link to = "/Standings/Standings">Standings</Link></li>
                 <img src = {HighlightsVector} id = "highlightsVector"/>

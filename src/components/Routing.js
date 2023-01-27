@@ -8,6 +8,8 @@ import Ligue1 from './Standings/Ligue1.js';
 import SerieA from './Standings/SerieA.js';
 import Bundesliga from './Standings/Bundesliga.js';
 import Ekstraklasa from './Standings/Ekstraklasa.js';
+import ComingMatch from './ComingMatch.js';
+import LiveGames from './LiveGames.js';
 
 const Routing = () => {
     return (
@@ -20,6 +22,8 @@ const Routing = () => {
             <Route exact path = '/Standings/SerieA' element = {<SerieA/>}></Route>
             <Route exact path = '/Standings/Bundesliga' element = {<Bundesliga/>}></Route>
             <Route exact path = '/Standings/Ekstraklasa' element = {<Ekstraklasa/>}></Route>
+            <Route exact path = '/ComingMatch' element = {<ComingMatch/>}></Route>
+            <Route exact path = '/LiveGames' element = {<LiveGames/>}></Route>
         </Routes>
     )
 }

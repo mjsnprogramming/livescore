@@ -53,3 +53,20 @@ a {
         cursor: pointer;
     }
 }
+@media screen and (max-width: 1600px) {
+    .leagues {
+        position: relative;
+        top: 40%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (max-width: 1200px) {
+    .leagues {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #standingsOverall {
+        background-color: aqua;
+    }
+}

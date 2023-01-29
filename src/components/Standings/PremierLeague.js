@@ -2,6 +2,8 @@
 import '../../styles/Tables.scss';
 import {Link} from 'react-router-dom';
 import '../../styles/PremierLeague.scss';
+import '../LiveAPI.js';
+import { StandingsList } from '../StandingsAPI';
 
 import Navigation from '../Navigation.js';
 import Search from '../Search.js';
@@ -36,7 +38,7 @@ function PremierLeague() {
             <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
                 <Navigation/>
                 <Search/>
-
+                <StandingsList standings = {[]}/>
                 <div id = "tablePremierLeague">
                     <img src = {England} id = "englandTableImage"/>
                     <img src = {PremierLeagueImage} id = "premierLeagueTableImage"/>

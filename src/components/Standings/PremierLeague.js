@@ -3,7 +3,7 @@ import '../../styles/Tables.scss';
 import {Link} from 'react-router-dom';
 import '../../styles/PremierLeague.scss';
 import '../LiveAPI.js';
-import { StandingsList } from '../StandingsAPI';
+import StandingsList from '../StandingsAPI.js';
 
 import Navigation from '../Navigation.js';
 import Search from '../Search.js';
@@ -32,7 +32,7 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
 
 
-function PremierLeague() {
+function PremierLeague(clubImage, clubName) { 
     return(
         <div className = "PremierLeague">
             <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
@@ -57,8 +57,8 @@ function PremierLeague() {
 
                         <div className = "tableStandings championsLeagueAdvance">
                             <span>1</span>
-                            <img src = {ArsenalLondon}/>
-                            <li><Link to = "/PremierLeague/Clubs/Arsenal">Arsenal</Link></li>
+                            <img src = {clubImage}/>
+                            <li><Link to = "/PremierLeague/Clubs/Arsenal">{clubName[0]}</Link></li>
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>
@@ -409,7 +409,7 @@ function PremierLeague() {
                 </div>
                 
         </div>
-    )
-}
+    );
+};
 
 export default PremierLeague;

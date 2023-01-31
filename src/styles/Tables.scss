@@ -284,3 +284,35 @@ $myGray: #A4A4A4;
         }
     }
 }
+@media screen and (max-width: 360px) {
+    #caption {
+        span:nth-child(3) {
+            display: none;
+        }
+        span:nth-child(4) {
+            display: none;
+        }
+        span:nth-child(5) {
+            display: none;
+        }
+    }
+    .tableStandings {
+        width: 320px;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        span:nth-child(5) {
+            display: none;
+        }
+        span:nth-child(6) {
+            display: none;
+        }
+        span:nth-child(7) {
+            display: none;
+        }
+        button {
+            display: none;
+        }
+    }
+}

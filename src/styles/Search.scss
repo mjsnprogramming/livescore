@@ -71,3 +71,20 @@
         left: 83%;
     }
 }
+@media screen and (max-width: 870px) {
+    #accountSection {
+        left: 77%;
+    }
+}
+@media screen and (max-width: 640px) {
+    #accountSection {
+        left: 65%;
+    }
+}
+@media screen and (max-width: 360px) {
+    #accountSection {
+        #account {
+            left: 70px;
+        }
+    }
+}

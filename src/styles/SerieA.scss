@@ -56,3 +56,18 @@ a {
         width: 600px;
     }
 } 
+@media screen and (max-width: 360px) {
+    #tableSerieA {
+        width: 320px;
+    #italyTableImage {
+        position: absolute;
+        left: 20px;
+    }
+    #serieATableImage {
+        left: 60px;
+    }
+    #serieATableSpan {
+        left: 120px;
+    }
+}
+}

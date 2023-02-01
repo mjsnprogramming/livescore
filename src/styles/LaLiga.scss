@@ -56,3 +56,18 @@ a {
         width: 600px;
     }
 } 
+@media screen and (max-width: 360px) {
+    #tableLaLiga {
+        width: 320px;
+    #spainTableImage {
+        position: absolute;
+        left: 20px;
+    }
+    #laLigaTableImage {
+        left: 60px;
+    }
+    #laLigaTableSpan {
+        left: 120px;
+    }
+}
+}

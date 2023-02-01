@@ -56,3 +56,18 @@ a {
         width: 600px;
     }
 } 
+@media screen and (max-width: 360px) {
+    #tableBundesliga {
+        width: 320px;
+    #germanyTableImage {
+        position: absolute;
+        left: 20px;
+    }
+    #bundesligaTableImage {
+        left: 60px;
+    }
+    #bundesligaTableSpan {
+        left: 120px;
+    }
+}
+}

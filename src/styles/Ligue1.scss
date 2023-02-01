@@ -56,3 +56,18 @@ a {
         width: 600px;
     }
 } 
+@media screen and (max-width: 360px) {
+    #tableLigue1 {
+        width: 320px;
+    #franceTableImage {
+        position: absolute;
+        left: 20px;
+    }
+    #ligue1TableImage {
+        left: 60px;
+    }
+    #ligue1TableSpan {
+        left: 120px;
+    }
+}
+}

@@ -63,5 +63,19 @@ a {
         transform: translate(-50%, -50%);
         width: 600px;
     }
-    
+}
+@media screen and (max-width: 360px) {
+    #tableEkstraklasa {
+        width: 320px;
+    #polandTableImage {
+        position: absolute;
+        left: 20px;
+    }
+    #ekstraklasaTableImage {
+        left: 60px;
+    }
+    #ekstraklasaTableSpan {
+        left: 120px;
+    }
+}
 }

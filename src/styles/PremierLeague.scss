@@ -56,3 +56,18 @@ a {
         width: 600px;
     }
 }
+@media screen and (max-width: 360px) {
+    #tablePremierLeague {
+        width: 320px;
+    #englandTableImage {
+        position: absolute;
+        left: 20px;
+    }
+    #premierLeagueTableImage {
+        left: 60px;
+    }
+    #premierLeagueTableSpan {
+        left: 120px;
+    }
+}
+}

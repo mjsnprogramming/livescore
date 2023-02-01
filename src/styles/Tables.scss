@@ -286,6 +286,9 @@ $myGray: #A4A4A4;
 }
 @media screen and (max-width: 360px) {
     #caption {
+        span:nth-child(2) {
+            left: 188px;
+        }
         span:nth-child(3) {
             display: none;
         }
@@ -295,13 +298,37 @@ $myGray: #A4A4A4;
         span:nth-child(5) {
             display: none;
         }
+        span:nth-child(6) {
+            left: 284px;
+        }
+        span:nth-child(7) {
+            left: 236px;
+        }
     }
     .tableStandings {
-        width: 320px;
+        width: 300px;
         position: relative;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        span:nth-child(1) {
+            left: 5px;
+            top: 12px;
+        }
+        img:nth-child(2) {
+            left: 25px;
+            top: 5px;
+        }
+        li:nth-child(3) {
+            left: 65px;
+            font-size: 13px;
+            top: 12px;
+        }
+        span:nth-child(4) {
+            left: 190px;
+            top: 12px;
+            font-size: 12px;
+        }
         span:nth-child(5) {
             display: none;
         }
@@ -310,6 +337,16 @@ $myGray: #A4A4A4;
         }
         span:nth-child(7) {
             display: none;
+        }
+        span:nth-child(8) {
+            left: 230px;
+            top: 12px;
+            font-size: 12px;
+        }
+        span:nth-child(9) {
+            left: 285px;
+            top: 12px;
+            font-size: 12px;
         }
         button {
             display: none;

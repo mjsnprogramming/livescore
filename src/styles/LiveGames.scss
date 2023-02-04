@@ -81,7 +81,6 @@ li {
     align-items: center;
     padding: 16px 24px;
     gap: 88px;
-    background-color: #5742A9;
     width: 1030px;
     height: 65px;
     border-radius: 8px;
@@ -248,6 +247,9 @@ li {
     }
 }
 @media screen and (max-width: 900px) {
+    body {
+        overflow-x: hidden !important;
+    }
     #footballMatch {
         width: 320px;
         display: block;
@@ -310,6 +312,74 @@ li {
         .statsVectorMatch {
             left: 335px;
             top: 65px;
+        }
+    }
+}
+@media screen and (max-width: 360px) {
+    #footballMatch {
+        left: 20px;
+    }
+    .latestScore {
+        width: 300px !important;
+        display: block;
+        padding: 0;
+        img:nth-child(1) {
+            width: 16px;
+            height: 16px;
+            top: 12px;
+        }
+        li:nth-child(2) {
+            top: 12px;
+            left: 40px;
+            font-size: 12px;
+        }
+        .latestMatchScore {
+            display: none;
+        }
+        li:nth-child(4) {
+            left: 40px;
+            top: 36px;
+            font-size: 12px;
+        }
+        img:nth-child(5) {
+            top: 36px;
+            left: 10px;
+            width: 16px;
+            height: 16px;
+        }
+        .fullTime {
+            display: none;
+        }
+        .dateOfGame {
+            display: none;
+        }
+        .infoVectorMatch {
+            left: 200px;
+            top: 21px;
+        }
+        .statsVectorMatch {
+            left: 235px;
+            top: 21px;
+        }
+        .latestMatchScoreMobile {
+            width: 20px;
+            height: 65px;
+            position: absolute;
+            left: 270px;
+            span:nth-child(1) {
+                position: absolute;
+                top: 6px;
+                left: 5px;
+                color: white;
+                font-weight: 600;
+            }
+            span:nth-child(2) {
+                position: absolute;
+                top: 34px;
+                left: 5px;
+                color: white;
+                font-weight: 600;
+            }
         }
     }
 }

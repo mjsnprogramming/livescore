@@ -53,6 +53,10 @@ function Home() {
                 <span className = "dateOfGame">18 December 2022</span>
                 <img src = {InfoVectorMatch} className = "infoVectorMatch"/>
                 <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
+                <div className = "latestMatchScoreMobile">
+                    <span>1</span>
+                    <span>2</span>
+                </div>
             </div>
 
             <div id = "secondScore" className = "latestScore">
@@ -69,6 +73,10 @@ function Home() {
                 <span className = "dateOfGame">18 December 2022</span>
                 <img src = {InfoVectorMatch} className = "infoVectorMatch"/>
                 <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
+                <div className = "latestMatchScoreMobile">
+                    <span>1</span>
+                    <span>2</span>
+                </div>
             </div>
 
             <div id = "thirdScore" className = "latestScore">
@@ -85,6 +93,10 @@ function Home() {
                 <span className = "dateOfGame">17 December 2022</span>
                 <img src = {InfoVectorMatch } className = "infoVectorMatch"/>
                 <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
+                <div className = "latestMatchScoreMobile">
+                    <span>1</span>
+                    <span>2</span>
+                </div>
             </div>
 
             <div id = "fourthScore" className = "latestScore">
@@ -101,6 +113,10 @@ function Home() {
                 <span className = "dateOfGame">17 December 2022</span>
                 <img src = {InfoVectorMatch} className = "infoVectorMatch"/>
                 <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
+                <div className = "latestMatchScoreMobile">
+                    <span>1</span>
+                    <span>2</span>
+                </div>
             </div>
 
             <div id = "fifthScore" className = "latestScore">
@@ -117,6 +133,10 @@ function Home() {
                 <span className = "dateOfGame">16 December 2022</span>
                 <img src = {InfoVectorMatch} className = "infoVectorMatch"/>
                 <img src = {StatsVectorMatch} className = "statsVectorMatch"/>
+                <div className = "latestMatchScoreMobile">
+                    <span>1</span>
+                    <span>2</span>
+                </div>
             </div>
 
 

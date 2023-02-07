@@ -1,6 +1,18 @@
+$inter: 'Inter', sans-serif;
+$myGray: #A4A4A4;
 @mixin dashboardImages() {
     width: 24px;
     height: 24px;
+    position: absolute;
+}
+@mixin dashboardLinks() {
+    font-family: $inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 54px;
+    cursor: pointer;
+    list-style-type: none;
     position: absolute;
 }
 .searching {
@@ -12,6 +24,108 @@
         display: none;
     }
 }
+#dashboardSearching {
+    display: none;
+    width: 283px;
+    height: 100vh;
+    flex-direction: column;
+    padding: 24px 24px 28px;
+    gap: 16px;
+    background-color: #1B1C21;
+    border: 1px solid #313131;
+    float: left;
+    z-index: 5;
+    position: absolute;
+    top: 70px;
+    span:nth-child(1) {
+        font-family: $inter;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        margin-left: 56px;
+        color: #FFFFFF;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    span:nth-child(2) {
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: $myGray;
+        position: absolute;
+        top: 120px;
+    }
+    #dashboardVector {
+        @include dashboardImages;
+        top: 180px;
+    }
+    li:nth-child(4) {
+        @include dashboardLinks;
+        top: 183px;
+        a {
+            color: #F5C451;
+        }
+    }
+    #liveVector {
+        @include dashboardImages;
+        top: 225px;
+    }
+    li:nth-child(6) {
+        @include dashboardLinks;
+        top: 227px;
+        a {
+            color: $myGray;
+        }
+    }
+    #standingsVector {
+        @include dashboardImages;
+        top: 273px;
+    }
+    li:nth-child(8) {
+        @include dashboardLinks;
+        top: 275px;
+        a {
+            color: $myGray;
+        }
+    }
+    #highlightsVector {
+        @include dashboardImages;
+        top: 321px;
+    }
+    li:nth-child(10) {
+        @include dashboardLinks;
+        top: 322px;
+        a {
+            color: $myGray;
+        }
+    }
+    #shopVector {
+        @include dashboardImages;
+        top: 369px;
+    }
+    li:nth-child(12) {
+        @include dashboardLinks;
+        top: 371px;
+        a {
+            color: $myGray;
+        }
+    }
+    #newsVector {
+        @include dashboardImages;
+        top: 417px;
+    }
+    li:nth-child(14) {
+        @include dashboardLinks;
+        top: 419px;
+        a {
+            color: $myGray;
+        }
+    }
+}
+
 #accountSection {
     width: 150px;
     height: 68px;

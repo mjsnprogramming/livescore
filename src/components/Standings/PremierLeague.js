@@ -2,8 +2,8 @@
 import '../../styles/Tables.scss';
 import {Link} from 'react-router-dom';
 import '../../styles/PremierLeague.scss';
-//import '../LiveAPI.js';
-//import StandingsListItem from '../StandingsAPI.js';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 import Navigation from '../Navigation.js';
 import Search from '../Search.js';
@@ -31,15 +31,60 @@ import Wolves from '../../images/PremierLeague/Wolves.png';
 import Southampton from '../../images/PremierLeague/Southampton.png';
 
 
+      const API_LIMIT = 10;
+      const API_DELAY = 1000;
 
+      let requestCounter = 0;
+
+      axios.interceptors.request.use(config => {
+        requestCounter++;
+
+        if (requestCounter > API_LIMIT) {
+            setTimeout(() => {
+                requestCounter--;
+            }, API_DELAY);
+            throw new Error('Too many requests');
+        }
+        return config;
+      });
 
  function PremierLeague() { 
+
+    const options = {
+        method: 'POST',
+        url: 'https://livescore6.p.rapidapi.com/leagues/v2/get-table',
+        params: {Category: 'soccer', Ccd: 'england', Scd: 'premier-league'},
+        headers: {
+          'X-RapidAPI-Key': 'd312c97a59mshbaa91a52c41a23cp1cc66ejsn51d278a6b9e6',
+          'X-RapidAPI-Host': 'livescore6.p.rapidapi.com'
+        }
+      };
+    const [data, setData] = useState([]);
+    const [error, setError] = useState(null);
+    const [isLoading, setIsLoading] = useState(false);
+    useEffect(() => {
+        setIsLoading(true);
+          axios.request(options)
+          .then(response => {
+                setData(response.data);
+                console.log(response.json());
+                requestCounter--;
+          })
+          .catch(error => {
+            setError(error);
+            console.log(error);
+            requestCounter--;
+          })
+          .finally(() => {
+            setIsLoading(false);
+          }); 
+    }, []);
     return(
         <div className = "PremierLeague">
             <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
                 <Navigation/>
                 <Search/>
-                {/*<StandingsListItem standings = {[]}/>*/}
+                
                 <div id = "tablePremierLeague">
                     <img src = {England} id = "englandTableImage"/>
                     <img src = {PremierLeagueImage} id = "premierLeagueTableImage"/>
@@ -59,7 +104,9 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                         <div className = "tableStandings championsLeagueAdvance">
                             <span>1</span>
                             <img src = {ArsenalLondon}/>
-                            <li><Link to = "/PremierLeague/Clubs/Arsenal">Arsenal</Link></li>
+                    
+                            <li><Link to = "/PremierLeague/Clubs/Arsenal"></Link></li>
+                           
                             <span>17</span>
                             <span>14</span>
                             <span>2</span>

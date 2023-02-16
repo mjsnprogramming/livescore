@@ -79,3 +79,25 @@ a {
         left: 0;
     }
 }
+@media screen and (max-width: 460px) {
+    .leagues {
+        img:nth-child(1) {
+            width: 20px;
+            height: 20px;
+            top: 22px;
+            left: 20px;
+        }
+        img:nth-child(2) {
+            width: 25px;
+            height: 25px;
+            top: 0;
+            left: 70px;
+        }
+        span:nth-child(3) {
+            font-size: 16px;
+            top: -23px;
+            left: 120px;
+        }
+
+    }
+}

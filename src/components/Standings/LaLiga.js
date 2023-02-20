@@ -57,12 +57,12 @@ function LaLiga() {
                             <span>1</span>
                             <img src = {Barcelona}/>
                             <li><Link to = "/LaLiga/Clubs/Barcelona">Barcelona</Link></li>
-                            <span>17</span>
-                            <span>14</span>
+                            <span>22</span>
+                            <span>19</span>
                             <span>2</span>
                             <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>45-7</span>
+                            <span>59</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -74,12 +74,12 @@ function LaLiga() {
                             <span>2</span>
                             <img src = {RealMadrid}/>
                             <li><Link to = "/LaLiga/Clubs/RealMadrid">Real Madrid</Link></li>
-                            <span>17</span>
-                            <span>12</span>
+                            <span>22</span>
+                            <span>16</span>
                             <span>3</span>
-                            <span>2</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>3</span>
+                            <span>46-17</span>
+                            <span>51</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -90,12 +90,12 @@ function LaLiga() {
                             <span>3</span>
                             <img src = {RealSociedad}/>
                             <li><Link to = "/LaLiga/Clubs/RealSociedad">Real Sociedad</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>22</span>
+                            <span>13</span>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>32-22</span>
+                            <span>43</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -106,12 +106,12 @@ function LaLiga() {
                             <span>4</span>
                             <img src = {Atletico}/>
                             <li><Link to = "/LaLiga/Clubs/Atletico">Atletico</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>22</span>
+                            <span>12</span>
+                            <span>5</span>
+                            <span>5</span>
+                            <span>31-17</span>
+                            <span>41</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -121,14 +121,14 @@ function LaLiga() {
 
                         <div className = "tableStandings europaLeagueAdvance">
                             <span>5</span>
-                            <img src = {Villarreal}/>
-                            <li><Link to = "/LaLiga/Clubs/Villarreal">Villarreal</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Betis}/>
+                            <li><Link to = "/LaLiga/Clubs/Betis">Betis</Link></li>
+                            <span>22</span>
+                            <span>11</span>
+                            <span>4</span>
+                            <span>7</span>
+                            <span>29-23</span>
+                            <span>37</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -137,14 +137,14 @@ function LaLiga() {
                         </div>
                         <div className = "tableStandings conferenceLeagueAdvance">
                             <span>6</span>
-                            <img src = {Betis}/>
-                            <li><Link to = "/LaLiga/Clubs/Betis">Betis</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Rayo}/>
+                            <li><Link to = "/LaLiga/Clubs/Rayo">Rayo</Link></li>
+                            <span>22</span>
+                            <span>9</span>
+                            <span>7</span>
+                            <span>6</span>
+                            <span>29-24</span>
+                            <span>34</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -154,14 +154,14 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>7</span>
-                            <img src = {Osasuna}/>
-                            <li><Link to = "/LaLiga/Clubs/Osasuna">Osasuna</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {AthleticBilbao}/>
+                            <li><Link to = "/LaLiga/Clubs/AthleticBilbao">Athletic Bilbao</Link></li>
+                            <span>22</span>
+                            <span>9</span>
+                            <span>5</span>
+                            <span>8</span>
+                            <span>31-23</span>
+                            <span>32</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -171,14 +171,14 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>8</span>
-                            <img src = {AthleticBilbao}/>
-                            <li><Link to = "/LaLiga/Clubs/AthleticBilbao">Athletic Bilbao</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Mallorca}/>
+                            <li><Link to = "/LaLiga/Clubs/Mallorca">Mallorca</Link></li>
+                            <span>22</span>
+                            <span>9</span>
+                            <span>4</span>
+                            <span>9</span>
+                            <span>20-22</span>
+                            <span>31</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -188,14 +188,14 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>9</span>
-                            <img src = {Rayo}/>
-                            <li><Link to = "/LaLiga/Clubs/Rayo">Rayo</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Villarreal}/>
+                            <li><Link to = "/LaLiga/Clubs/Villarreal">Villarreal</Link></li>
+                            <span>22</span>
+                            <span>9</span>
+                            <span>4</span>
+                            <span>9</span>
+                            <span>24-22</span>
+                            <span>31</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -205,14 +205,14 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>10</span>
-                            <img src = {Mallorca}/>
-                            <li><Link to = "/LaLiga/Clubs/Mallorca">Mallorca</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Osasuna}/>
+                            <li><Link to = "/LaLiga/Clubs/Osasuna">Osasuna</Link></li>
+                            <span>22</span>
+                            <span>8</span>
+                            <span>6</span>
+                            <span>8</span>
+                            <span>19-21</span>
+                            <span>30</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -224,12 +224,12 @@ function LaLiga() {
                             <span>11</span>
                             <img src = {Girona}/>
                             <li><Link to = "/LaLiga/Clubs/Girona">Girona</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>22</span>
+                            <span>7</span>
+                            <span>6</span>
+                            <span>9</span>
+                            <span>33-33</span>
+                            <span>27</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -239,14 +239,14 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>12</span>
-                            <img src = {Valencia}/>
-                            <li><Link to = "/LaLiga/Clubs/Valencia">Valencia</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Sevilla}/>
+                            <li><Link to = "/LaLiga/Clubs/Sevilla">Sevilla</Link></li>
+                            <span>22</span>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>9</span>
+                            <span>24-30</span>
+                            <span>25</span>
                             <button></button>
                             <button></button>
                             <button></button>

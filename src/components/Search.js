@@ -5,13 +5,16 @@ import CartVector from '../images/CartVector.png';
 import NotificationVector from '../images/NotificationVector.png';
 import profileImage from '../../src/images/Ekstraklasa/LechPoznan.png';
 import MenuVector from '../images/Menu.png';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link, useHistory } from 'react-router-dom';
 import DashboardVector from '../../src/images/Dashboard.png';
 import LiveVector from '../../src/images/Live.png';
 import StandingsVector from '../../src/images/Standings.png';
 import HighlightsVector from '../../src/images/Highlights.png';
 import ShopVector from '../images/Shop.png';
 import NewsVector from '../images/News.png';
+import React from 'react';
+
+
 
 function Search() {
     const openDashboard = () => {

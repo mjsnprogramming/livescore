@@ -2,7 +2,6 @@
 import '../../styles/Tables.scss';
 import {Link} from 'react-router-dom';
 import '../../styles/PremierLeague.scss';
-import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import Navigation from '../Navigation.js';
@@ -31,54 +30,25 @@ import Wolves from '../../images/PremierLeague/Wolves.png';
 import Southampton from '../../images/PremierLeague/Southampton.png';
 
 
-      const API_LIMIT = 10;
-      const API_DELAY = 1000;
-
-      let requestCounter = 0;
-
-      axios.interceptors.request.use(config => {
-        requestCounter++;
-
-        if (requestCounter > API_LIMIT) {
-            setTimeout(() => {
-                requestCounter--;
-            }, API_DELAY);
-            throw new Error('Too many requests');
-        }
-        return config;
-      });
+      
 
  function PremierLeague() { 
 
     const options = {
         method: 'POST',
-        url: 'https://livescore6.p.rapidapi.com/leagues/v2/get-table',
-        params: {Category: 'soccer', Ccd: 'england', Scd: 'premier-league'},
+        url: 'https://football-pro.p.rapidapi.com/api/v2.0/standings/season/live/16036',
+        params: {tz: 'Europe/Amsterdam'},
         headers: {
           'X-RapidAPI-Key': 'd312c97a59mshbaa91a52c41a23cp1cc66ejsn51d278a6b9e6',
-          'X-RapidAPI-Host': 'livescore6.p.rapidapi.com'
+          'X-RapidAPI-Host': 'football-pro.p.rapidapi.com'
         }
       };
-    const [data, setData] = useState([]);
-    const [error, setError] = useState(null);
-    const [isLoading, setIsLoading] = useState(false);
-    useEffect(() => {
-        setIsLoading(true);
-          axios.request(options)
-          .then(response => {
-                setData(response.data);
-                console.log(response.json());
-                requestCounter--;
-          })
-          .catch(error => {
-            setError(error);
-            console.log(error);
-            requestCounter--;
-          })
-          .finally(() => {
-            setIsLoading(false);
-          }); 
-    }, []);
+      axios.request(options).then((response) => {
+        console.log(response.data);
+      }).catch((error) => {
+        console.error(error);
+      })
+    
     return(
         <div className = "PremierLeague">
             <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
@@ -105,14 +75,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                             <span>1</span>
                             <img src = {ArsenalLondon}/>
                     
-                            <li><Link to = "/PremierLeague/Clubs/Arsenal"></Link></li>
+                            <li><Link to = "/PremierLeague/Clubs/Arsenal">Arsenal</Link></li>
                            
+                            <span>23</span>
                             <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>3</span>
+                            <span>3</span>
+                            <span>51-23</span>
+                            <span>54</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -124,12 +94,12 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                             <span>2</span>
                             <img src = {ManchesterCity}/>
                             <li><Link to = "/PremierLeague/Clubs/ManchesterCity">Manchester City</Link></li>
-                            <span>17</span>
-                            <span>12</span>
-                            <span>3</span>
-                            <span>2</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>24</span>
+                            <span>16</span>
+                            <span>4</span>
+                            <span>4</span>
+                            <span>60-24</span>
+                            <span>52</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -138,14 +108,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                         </div>
                         <div className = "tableStandings championsLeagueAdvance">
                             <span>3</span>
-                            <img src = {Newcastle}/>
-                            <li><Link to = "/PremierLeague/Clubs/Newcastle">Newcastle</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {ManchesterUtd}/>
+                            <li><Link to = "/PremierLeague/Clubs/ManchesterUnited">Manchester United</Link></li>
+                            <span>24</span>
+                            <span>15</span>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>41-28</span>
+                            <span>49</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -154,14 +124,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                         </div>
                         <div className = "tableStandings championsLeagueAdvance">
                             <span>4</span>
-                            <img src = {ManchesterUtd}/>
-                            <li><Link to = "/PremierLeague/Clubs/ManchesterUnited">Manchester United</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Tottenham}/>
+                            <li><Link to = "/PremierLeague/Clubs/Tottenham">Tottenham</Link></li>
+                            <span>24</span>
+                            <span>13</span>
+                            <span>3</span>
+                            <span>8</span>
+                            <span>44-35</span>
+                            <span>42</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -171,14 +141,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
                         <div className = "tableStandings europaLeagueAdvance">
                             <span>5</span>
-                            <img src = {Tottenham}/>
-                            <li><Link to = "/PremierLeague/Clubs/Tottenham">Tottenham</Link></li>
-                            <span>17</span>
-                            <span>14</span>
+                            <img src = {Newcastle}/>
+                            <li><Link to = "/PremierLeague/Clubs/Newcastle">Newcastle</Link></li>
+                            <span>23</span>
+                            <span>10</span>
+                            <span>11</span>
                             <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>35-15</span>
+                            <span>41</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -187,14 +157,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                         </div>
                         <div className = "tableStandings">
                             <span>6</span>
-                            <img src = {Liverpool}/>
-                            <li><Link to = "/PremierLeague/Clubs/Liverpool">Liverpool</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Fulham}/>
+                            <li><Link to = "/PremierLeague/Clubs/Fulham">Fulham</Link></li>
+                            <span>24</span>
+                            <span>11</span>
+                            <span>5</span>
+                            <span>8</span>
+                            <span>35-30</span>
+                            <span>38</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -204,14 +174,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
                         <div className = "tableStandings">
                             <span>7</span>
-                            <img src = {Fulham}/>
-                            <li><Link to = "/PremierLeague/Clubs/Fulham">Fulham</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Brighton}/>
+                            <li><Link to = "/PremierLeague/Clubs/Brighton">Brighton</Link></li>
+                            <span>22</span>
+                            <span>10</span>
+                            <span>5</span>
+                            <span>7</span>
+                            <span>39-29</span>
+                            <span>35</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -221,14 +191,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
                         <div className = "tableStandings">
                             <span>8</span>
-                            <img src = {Brighton}/>
-                            <li><Link to = "/PremierLeague/Clubs/Brighton">Brighton</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Liverpool}/>
+                            <li><Link to = "/PremierLeague/Clubs/Liverpool">Liverpool</Link></li>
+                            <span>22</span>
+                            <span>10</span>
+                            <span>5</span>
+                            <span>7</span>
+                            <span>38-28</span>
+                            <span>35</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -240,12 +210,12 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                             <span>9</span>
                             <img src = {Brentford}/>
                             <li><Link to = "/PremierLeague/Clubs/Brentford">Brentford</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>23</span>
+                            <span>8</span>
+                            <span>11</span>
+                            <span>4</span>
+                            <span>37-30</span>
+                            <span>35</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -257,12 +227,12 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                             <span>10</span>
                             <img src = {ChelseaLondon}/>
                             <li><Link to = "/PremierLeague/Clubs/Chelsea">Chelsea</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>23</span>
+                            <span>8</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>23-23</span>
+                            <span>31</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -274,12 +244,12 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                             <span>11</span>
                             <img src = {AstonVilla}/>
                             <li><Link to = "/PremierLeague/Clubs/AstonVilla">Aston Villa</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>23</span>
+                            <span>8</span>
+                            <span>4</span>
+                            <span>11</span>
+                            <span>28-38</span>
+                            <span>28</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -290,13 +260,13 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                         <div className = "tableStandings">
                             <span>12</span>
                             <img src = {CrystalPalace}/>
-                            <li><Link to = "/PremierLeague/Clubs/Crystal Palace">Crystal Palace</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <li><Link to = "/PremierLeague/Clubs/CrystalPalace">Crystal Palace</Link></li>
+                            <span>23</span>
+                            <span>6</span>
+                            <span>8</span>
+                            <span>9</span>
+                            <span>21-31</span>
+                            <span>26</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -306,14 +276,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
                         <div className = "tableStandings">
                             <span>13</span>
-                            <img src = {Leicester}/>
-                            <li><Link to = "/PremierLeague/Clubs/Leicester">Leicester</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Nottingham}/>
+                            <li><Link to = "/PremierLeague/Clubs/Nottingham">Nottingham</Link></li>
+                            <span>23</span>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>10</span>
+                            <span>18-38</span>
+                            <span>25</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -323,14 +293,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
                         <div className = "tableStandings">
                             <span>14</span>
-                            <img src = {Leeds}/>
-                            <li><Link to = "/PremierLeague/Clubs/Leeds">Leeds</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Leicester}/>
+                            <li><Link to = "/PremierLeague/Clubs/Leicester">Leicester</Link></li>
+                            <span>23</span>
+                            <span>7</span>
+                            <span>3</span>
+                            <span>13</span>
+                            <span>36-41</span>
+                            <span>24</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -340,14 +310,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
                         <div className = "tableStandings">
                             <span>15</span>
-                            <img src = {Nottingham}/>
-                            <li><Link to = "/PremierLeague/Clubs/Nottingham">Nottingham</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Wolves}/>
+                            <li><Link to = "/PremierLeague/Clubs/Wolves">Wolves</Link></li>
+                            <span>23</span>
+                            <span>6</span>
+                            <span>5</span>
+                            <span>12</span>
+                            <span>17-32</span>
+                            <span>21</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -357,14 +327,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
                         <div className = "tableStandings">
                             <span>16</span>
-                            <img src = {Bournemouth}/>
-                            <li><Link to = "/PremierLeague/Clubs/Bournemouth">Bournemouth</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Everton}/>
+                            <li><Link to = "/PremierLeague/Clubs/Everton">Everton</Link></li>
+                            <span>23</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span>12</span>
+                            <span>17-30</span>
+                            <span>21</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -374,14 +344,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
                         <div className = "tableStandings">
                             <span>17</span>
-                            <img src = {WestHamUnited}/>
-                            <li><Link to = "/PremierLeague/Clubs/WestHamUnited">West Ham United</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Bournemouth}/>
+                            <li><Link to = "/PremierLeague/Clubs/Bournemouth">Bournemouth</Link></li>
+                            <span>23</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span>12</span>
+                            <span>21-44</span>
+                            <span>21</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -391,14 +361,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
                         <div className = "tableStandings relegate">
                             <span>18</span>
-                            <img src = {Everton}/>
-                            <li><Link to = "/PremierLeague/Clubs/Everton">Everton</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {WestHamUnited}/>
+                            <li><Link to = "/PremierLeague/Clubs/WestHamUnited">West Ham</Link></li>
+                            <span>23</span>
+                            <span>5</span>
+                            <span>5</span>
+                            <span>13</span>
+                            <span>19-29</span>
+                            <span>20</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -408,14 +378,14 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
 
                         <div className = "tableStandings relegate">
                             <span>19</span>
-                            <img src = {Wolves}/>
-                            <li><Link to = "/PremierLeague/Clubs/Wolves">Wolves</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Leeds}/>
+                            <li><Link to = "/PremierLeague/Clubs/Leeds">Leeds</Link></li>
+                            <span>23</span>
+                            <span>4</span>
+                            <span>7</span>
+                            <span>12</span>
+                            <span>28-39</span>
+                            <span>19</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -427,12 +397,12 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
                             <span>20</span>
                             <img src = {Southampton}/>
                             <li><Link to = "/PremierLeague/Clubs/Southampton">Southampton</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>23</span>
+                            <span>5</span>
+                            <span>3</span>
+                            <span>15</span>
+                            <span>19-40</span>
+                            <span>18</span>
                             <button></button>
                             <button></button>
                             <button></button>

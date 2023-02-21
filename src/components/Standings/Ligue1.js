@@ -55,12 +55,12 @@ function Ligue1() {
                             <span>1</span>
                             <img src = {PSG}/>
                             <li><Link to = "/Ligue1/Clubs/PSG">PSG</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>24</span>
+                            <span>18</span>
+                            <span>3</span>
+                            <span>3</span>
+                            <span>59-23</span>
+                            <span>57</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -70,14 +70,14 @@ function Ligue1() {
 
                         <div className = "tableStandings championsLeagueAdvance">
                             <span>2</span>
-                            <img src = {Lens}/>
-                            <li><Link to = "/Ligue1/Clubs/Lens">Lens</Link></li>
-                            <span>17</span>
-                            <span>12</span>
-                            <span>3</span>
-                            <span>2</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Marseille}/>
+                            <li><Link to = "/Ligue1/Clubs/Marseille">Marseille</Link></li>
+                            <span>24</span>
+                            <span>16</span>
+                            <span>4</span>
+                            <span>4</span>
+                            <span>48-22</span>
+                            <span>52</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -86,14 +86,14 @@ function Ligue1() {
                         </div>
                         <div className = "tableStandings championsLeagueQualifying">
                             <span>3</span>
-                            <img src = {Marseille}/>
-                            <li><Link to = "/Ligue1/Clubs/Marseille">Marseille</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Monaco}/>
+                            <li><Link to = "/Ligue1/Clubs/Monaco">Monaco</Link></li>
+                            <span>24</span>
+                            <span>15</span>
+                            <span>5</span>
+                            <span>4</span>
+                            <span>53-31</span>
+                            <span>50</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -102,14 +102,14 @@ function Ligue1() {
                         </div>
                         <div className = "tableStandings europaLeagueAdvance">
                             <span>4</span>
-                            <img src = {Monaco}/>
-                            <li><Link to = "/Ligue1/Clubs/Monaco">Monaco</Link></li>
-                            <span>17</span>
+                            <img src = {Lens}/>
+                            <li><Link to = "/Ligue1/Clubs/Lens">Lens</Link></li>
+                            <span>24</span>
                             <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>7</span>
+                            <span>3</span>
+                            <span>38-19</span>
+                            <span>49</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -121,12 +121,12 @@ function Ligue1() {
                             <span>5</span>
                             <img src = {Rennes}/>
                             <li><Link to = "/Ligue1/Clubs/Rennes">Rennes</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>24</span>
+                            <span>13</span>
+                            <span>4</span>
+                            <span>7</span>
+                            <span>44-28</span>
+                            <span>43</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -137,12 +137,12 @@ function Ligue1() {
                             <span>6</span>
                             <img src = {Lille}/>
                             <li><Link to = "/Ligue1/Clubs/Lille">Lille</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>24</span>
+                            <span>12</span>
+                            <span>5</span>
+                            <span>7</span>
+                            <span>43-31</span>
+                            <span>41</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -154,12 +154,12 @@ function Ligue1() {
                             <span>7</span>
                             <img src = {Lorient}/>
                             <li><Link to = "/Ligue1/Clubs/Lorient">Lorient</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>24</span>
+                            <span>11</span>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>38-35</span>
+                            <span>39</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -169,14 +169,14 @@ function Ligue1() {
 
                         <div className = "tableStandings">
                             <span>8</span>
-                            <img src = {Clermont}/>
-                            <li><Link to = "/Ligue1/Clubs/Clermont">Clermont</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Nice}/>
+                            <li><Link to = "/Ligue1/Clubs/Nice">Nice</Link></li>
+                            <span>24</span>
+                            <span>10</span>
+                            <span>8</span>
+                            <span>6</span>
+                            <span>30-21</span>
+                            <span>38</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -188,12 +188,12 @@ function Ligue1() {
                             <span>9</span>
                             <img src = {Lyon}/>
                             <li><Link to = "/Ligue1/Clubs/Lyon">Lyon</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>24</span>
+                            <span>10</span>
+                            <span>5</span>
+                            <span>9</span>
+                            <span>36-27</span>
+                            <span>35</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -203,14 +203,14 @@ function Ligue1() {
 
                         <div className = "tableStandings">
                             <span>10</span>
-                            <img src = {Nice}/>
-                            <li><Link to = "/Ligue1/Clubs/Nice">Nice</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Reims}/>
+                            <li><Link to = "/Ligue1/Clubs/Reims">Reims</Link></li>
+                            <span>24</span>
+                            <span>7</span>
+                            <span>13</span>
+                            <span>4</span>
+                            <span>30-26</span>
+                            <span>34</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -220,14 +220,14 @@ function Ligue1() {
 
                         <div className = "tableStandings">
                             <span>11</span>
-                            <img src = {Reims}/>
-                            <li><Link to = "/Ligue1/Clubs/Reims">Reims</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Toulouse}/>
+                            <li><Link to = "/Ligue1/Clubs/Toulouse">Toulouse</Link></li>
+                            <span>24</span>
+                            <span>9</span>
+                            <span>5</span>
+                            <span>10</span>
+                            <span>41-42</span>
+                            <span>32</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -237,14 +237,14 @@ function Ligue1() {
 
                         <div className = "tableStandings">
                             <span>12</span>
-                            <img src = {Toulouse}/>
-                            <li><Link to = "/Ligue1/Clubs/Toulouse">Toulouse</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Clermont}/>
+                            <li><Link to = "/Ligue1/Clubs/Clermont">Clermont</Link></li>
+                            <span>24</span>
+                            <span>8</span>
+                            <span>6</span>
+                            <span>10</span>
+                            <span>24-33</span>
+                            <span>30</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -256,12 +256,12 @@ function Ligue1() {
                             <span>13</span>
                             <img src = {Nantes}/>
                             <li><Link to = "/Ligue1/Clubs/Nantes">Nantes</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>24</span>
+                            <span>6</span>
+                            <span>10</span>
+                            <span>8</span>
+                            <span>25-29</span>
+                            <span>28</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -271,14 +271,14 @@ function Ligue1() {
 
                         <div className = "tableStandings">
                             <span>14</span>
-                            <img src = {Troyes}/>
-                            <li><Link to = "/Ligue1/Clubs/Troyes">Troyes</Link></li>
-                            <span>17</span>
-                            <span>14</span>
+                            <img src = {Montpellier}/>
+                            <li><Link to = "/Ligue1/Clubs/Montpellier">Montpellier</Link></li>
+                            <span>24</span>
+                            <span>8</span>
                             <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>14</span>
+                            <span>35-45</span>
+                            <span>26</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -288,14 +288,14 @@ function Ligue1() {
 
                         <div className = "tableStandings">
                             <span>15</span>
-                            <img src = {Montpellier}/>
-                            <li><Link to = "/Ligue1/Clubs/Montpellier">Montpellier</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Strasbourg}/>
+                            <li><Link to = "/Ligue1/Clubs/Strasbourg">Strasbourg</Link></li>
+                            <span>24</span>
+                            <span>4</span>
+                            <span>9</span>
+                            <span>11</span>
+                            <span>29-42</span>
+                            <span>21</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -305,14 +305,14 @@ function Ligue1() {
 
                         <div className = "tableStandings">
                             <span>16</span>
-                            <img src = {Strasbourg}/>
-                            <li><Link to = "/Ligue1/Clubs/Strasbourg">Strasbourg</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Brest}/>
+                            <li><Link to = "/Ligue1/Clubs/Brest">Brest</Link></li>
+                            <span>24</span>
+                            <span>4</span>
+                            <span>8</span>
+                            <span>12</span>
+                            <span>25-40</span>
+                            <span>20</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -322,14 +322,14 @@ function Ligue1() {
 
                         <div className = "tableStandings relegate">
                             <span>17</span>
-                            <img src = {Brest}/>
-                            <li><Link to = "/Ligue1/Clubs/Brest">Brest</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Troyes}/>
+                            <li><Link to = "/Ligue1/Clubs/Troyes">Troyes</Link></li>
+                            <span>24</span>
+                            <span>4</span>
+                            <span>7</span>
+                            <span>13</span>
+                            <span>33-53</span>
+                            <span>19</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -339,14 +339,14 @@ function Ligue1() {
 
                         <div className = "tableStandings relegate">
                             <span>18</span>
-                            <img src = {Ajaccio}/>
-                            <li><Link to = "/Ligue1/Clubs/Ajaccio">Ajaccio</Link></li>
-                            <span>17</span>
+                            <img src = {Auxerre}/>
+                            <li><Link to = "/Ligue1/Clubs/Auxerre">Auxerre</Link></li>
+                            <span>24</span>
+                            <span>4</span>
+                            <span>6</span>
                             <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>21-48</span>
+                            <span>18</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -356,14 +356,14 @@ function Ligue1() {
 
                         <div className = "tableStandings relegate">
                             <span>19</span>
-                            <img src = {Auxerre}/>
-                            <li><Link to = "/Ligue1/Clubs/Auxerre">Auxerre</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Ajaccio}/>
+                            <li><Link to = "/Ligue1/Clubs/Ajaccio">Ajaccio</Link></li>
+                            <span>24</span>
+                            <span>5</span>
+                            <span>3</span>
+                            <span>16</span>
+                            <span>18-45</span>
+                            <span>18</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -375,12 +375,12 @@ function Ligue1() {
                             <span>20</span>
                             <img src = {Angers}/>
                             <li><Link to = "/Ligue1/Clubs/Angers">Angers</Link></li>
-                            <span>17</span>
-                            <span>14</span>
+                            <span>24</span>
                             <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>4</span>
+                            <span>18</span>
+                            <span>20-50</span>
+                            <span>10</span>
                             <button></button>
                             <button></button>
                             <button></button>

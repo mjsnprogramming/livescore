@@ -35,14 +35,11 @@ import Southampton from '../../images/PremierLeague/Southampton.png';
  function PremierLeague() { 
 
     const options = {
-        method: 'POST',
-        url: 'https://football-pro.p.rapidapi.com/api/v2.0/standings/season/live/16036',
-        params: {tz: 'Europe/Amsterdam'},
-        headers: {
-          'X-RapidAPI-Key': 'd312c97a59mshbaa91a52c41a23cp1cc66ejsn51d278a6b9e6',
-          'X-RapidAPI-Host': 'football-pro.p.rapidapi.com'
-        }
+        method: 'get',
+        url: 'https://soccer.sportmonks.com/api/v2.0/standings/season/17141?api_token={j9WwIU9jvKyr2QuMtGshAXXyA23kXsLaW71F8arcIOO5TWYSLSANjxr7vvRC}',
+        headers: { }
       };
+
       axios.request(options).then((response) => {
         console.log(response.data);
       }).catch((error) => {

@@ -256,14 +256,14 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>13</span>
-                            <img src = {Almeria}/>
-                            <li><Link to = "/LaLiga/Clubs/Almeria">Almeria</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Espanyol}/>
+                            <li><Link to = "/LaLiga/Clubs/Espanyol">Espanyol</Link></li>
+                            <span>22</span>
+                            <span>5</span>
+                            <span>9</span>
+                            <span>8</span>
+                            <span>27-33</span>
+                            <span>24</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -273,14 +273,14 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>14</span>
-                            <img src = {Espanyol}/>
-                            <li><Link to = "/LaLiga/Clubs/Espanyol">Espanyol</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {CeltaVigo}/>
+                            <li><Link to = "/LaLiga/Clubs/CeltaVigo">Celta Vigo</Link></li>
+                            <span>22</span>
+                            <span>6</span>
+                            <span>6</span>
+                            <span>10</span>
+                            <span>23-34</span>
+                            <span>24</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -290,14 +290,14 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>15</span>
-                            <img src = {Getafe}/>
-                            <li><Link to = "/LaLiga/Clubs/Getafe">Getafe</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Valladolid}/>
+                            <li><Link to = "/LaLiga/Clubs/Valladolid">Valladolid</Link></li>
+                            <span>22</span>
+                            <span>7</span>
+                            <span>3</span>
+                            <span>12</span>
+                            <span>16-30</span>
+                            <span>24</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -307,14 +307,14 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>16</span>
-                            <img src = {CeltaVigo}/>
-                            <li><Link to = "/LaLiga/Clubs/CeltaVigo">Celta Vigo</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Getafe}/>
+                            <li><Link to = "/LaLiga/Clubs/Getafe">Getafe</Link></li>
+                            <span>22</span>
+                            <span>5</span>
+                            <span>7</span>
+                            <span>10</span>
+                            <span>19-28</span>
+                            <span>22</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -324,14 +324,14 @@ function LaLiga() {
 
                         <div className = "tableStandings">
                             <span>17</span>
-                            <img src = {Valladolid}/>
-                            <li><Link to = "/LaLiga/Clubs/Valladolid">Valladolid</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Almeria}/>
+                            <li><Link to = "/LaLiga/Clubs/Almeria">Almeria</Link></li>
+                            <span>22</span>
+                            <span>6</span>
+                            <span>4</span>
+                            <span>12</span>
+                            <span>27-40</span>
+                            <span>22</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -341,14 +341,14 @@ function LaLiga() {
 
                         <div className = "tableStandings relegate">
                             <span>18</span>
-                            <img src = {Sevilla}/>
-                            <li><Link to = "/LaLiga/Clubs/Sevilla">Sevilla</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Cadiz}/>
+                            <li><Link to = "/LaLiga/Clubs/Cadiz">Cadiz</Link></li>
+                            <span>22</span>
+                            <span>5</span>
+                            <span>7</span>
+                            <span>10</span>
+                            <span>17-35</span>
+                            <span>22</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -358,14 +358,14 @@ function LaLiga() {
 
                         <div className = "tableStandings relegate">
                             <span>19</span>
-                            <img src = {Cadiz}/>
-                            <li><Link to = "/LaLiga/Clubs/Cadiz">Cadiz</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Valencia}/>
+                            <li><Link to = "/LaLiga/Clubs/Valencia">Valencia</Link></li>
+                            <span>22</span>
+                            <span>5</span>
+                            <span>5</span>
+                            <span>12</span>
+                            <span>26-27</span>
+                            <span>20</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -377,12 +377,12 @@ function LaLiga() {
                             <span>20</span>
                             <img src = {Elche}/>
                             <li><Link to = "/LaLiga/Clubs/Elche">Elche</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
+                            <span>22</span>
                             <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>6</span>
+                            <span>15</span>
+                            <span>15-45</span>
+                            <span>9</span>
                             <button></button>
                             <button></button>
                             <button></button>

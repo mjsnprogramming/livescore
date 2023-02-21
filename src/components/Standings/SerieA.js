@@ -55,12 +55,12 @@ function SerieA() {
                             <span>1</span>
                             <img src = {Napoli}/>
                             <li><Link to = "/SerieA/Clubs/Napoli">Napoli</Link></li>
-                            <span>17</span>
-                            <span>14</span>
+                            <span>23</span>
+                            <span>20</span>
                             <span>2</span>
                             <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>56-15</span>
+                            <span>62</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -70,14 +70,14 @@ function SerieA() {
 
                         <div className = "tableStandings championsLeagueAdvance">
                             <span>2</span>
-                            <img src = {Milan}/>
-                            <li><Link to = "/SerieA/Clubs/Milan">Milan</Link></li>
-                            <span>17</span>
-                            <span>12</span>
-                            <span>3</span>
+                            <img src = {Inter}/>
+                            <li><Link to = "/SerieA/Clubs/Inter">Inter</Link></li>
+                            <span>23</span>
+                            <span>15</span>
                             <span>2</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>6</span>
+                            <span>44-27</span>
+                            <span>47</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -86,13 +86,13 @@ function SerieA() {
                         </div>
                         <div className = "tableStandings championsLeagueAdvance">
                             <span>3</span>
-                            <img src = {Juventus}/>
-                            <li><Link to = "/SerieA/Clubs/Juventus">Juventus</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
+                            <img src = {Roma}/>
+                            <li><Link to = "/SerieA/Clubs/Roma">Roma</Link></li>
+                            <span>23</span>
+                            <span>13</span>
+                            <span>5</span>
+                            <span>5</span>
+                            <span>30-19</span>
                             <span>44</span>
                             <button></button>
                             <button></button>
@@ -102,13 +102,13 @@ function SerieA() {
                         </div>
                         <div className = "tableStandings championsLeagueAdvance">
                             <span>4</span>
-                            <img src = {Inter}/>
-                            <li><Link to = "/SerieA/Clubs/Inter">Inter</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
+                            <img src = {Milan}/>
+                            <li><Link to = "/SerieA/Clubs/Milan">Milan</Link></li>
+                            <span>23</span>
+                            <span>13</span>
+                            <span>5</span>
+                            <span>5</span>
+                            <span>39-30</span>
                             <span>44</span>
                             <button></button>
                             <button></button>
@@ -121,12 +121,12 @@ function SerieA() {
                             <span>5</span>
                             <img src = {Lazio}/>
                             <li><Link to = "/SerieA/Clubs/Lazio">Lazio</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>23</span>
+                            <span>12</span>
+                            <span>6</span>
+                            <span>5</span>
+                            <span>39-19</span>
+                            <span>42</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -137,12 +137,12 @@ function SerieA() {
                             <span>6</span>
                             <img src = {Atalanta}/>
                             <li><Link to = "/SerieA/Clubs/Atalanta">Atalanta</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>23</span>
+                            <span>12</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span>42-26</span>
+                            <span>41</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -152,14 +152,14 @@ function SerieA() {
 
                         <div className = "tableStandings conferenceLeagueAdvance">
                             <span>7</span>
-                            <img src = {Roma}/>
-                            <li><Link to = "/SerieA/Clubs/Roma">Roma</Link></li>
-                            <span>17</span>
+                            <img src = {Juventus}/>
+                            <li><Link to = "/SerieA/Clubs/Juventus">Juventus</Link></li>
+                            <span>23</span>
                             <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>5</span>
+                            <span>4</span>
+                            <span>36-17</span>
+                            <span>32</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -169,14 +169,14 @@ function SerieA() {
 
                         <div className = "tableStandings">
                             <span>8</span>
-                            <img src = {Udinese}/>
-                            <li><Link to = "/Udinese/Clubs/Udinese">Udinese</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Bologna}/>
+                            <li><Link to = "/SerieA/Clubs/Bologna">Bologna</Link></li>
+                            <span>23</span>
+                            <span>9</span>
+                            <span>5</span>
+                            <span>9</span>
+                            <span>30-33</span>
+                            <span>32</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -188,12 +188,12 @@ function SerieA() {
                             <span>9</span>
                             <img src = {Torino}/>
                             <li><Link to = "/SerieA/Clubs/Torino">Torino</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>23</span>
+                            <span>8</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>24-25</span>
+                            <span>31</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -203,14 +203,14 @@ function SerieA() {
 
                         <div className = "tableStandings">
                             <span>10</span>
-                            <img src = {Fiorentina}/>
-                            <li><Link to = "/SerieA/Clubs/Fiorentina">Fiorentina</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Udinese}/>
+                            <li><Link to = "/SerieA/Clubs/Udinese">Udinese</Link></li>
+                            <span>23</span>
+                            <span>7</span>
+                            <span>9</span>
+                            <span>7</span>
+                            <span>31-28</span>
+                            <span>30</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -220,14 +220,14 @@ function SerieA() {
 
                         <div className = "tableStandings">
                             <span>11</span>
-                            <img src = {Bologna}/>
-                            <li><Link to = "/SerieA/Clubs/Bologna">Bologna</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Monza}/>
+                            <li><Link to = "/SerieA/Clubs/Monza">Monza</Link></li>
+                            <span>23</span>
+                            <span>8</span>
+                            <span>5</span>
+                            <span>10</span>
+                            <span>28-31</span>
+                            <span>29</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -239,12 +239,12 @@ function SerieA() {
                             <span>12</span>
                             <img src = {Empoli}/>
                             <li><Link to = "/SerieA/Clubs/Empoli">Empoli</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>23</span>
+                            <span>6</span>
+                            <span>10</span>
+                            <span>7</span>
+                            <span>22-29</span>
+                            <span>28</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -254,14 +254,14 @@ function SerieA() {
 
                         <div className = "tableStandings">
                             <span>13</span>
-                            <img src = {Monza}/>
-                            <li><Link to = "/SerieA/Clubs/Monza">Monza</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Lecce}/>
+                            <li><Link to = "/SerieA/Clubs/Lecce">Lecce</Link></li>
+                            <span>23</span>
+                            <span>6</span>
+                            <span>9</span>
+                            <span>8</span>
+                            <span>24-26</span>
+                            <span>27</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -271,14 +271,14 @@ function SerieA() {
 
                         <div className = "tableStandings">
                             <span>14</span>
-                            <img src = {Lecce}/>
-                            <li><Link to = "/SerieA/Clubs/Lecce">Lecce</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Fiorentina}/>
+                            <li><Link to = "/SerieA/Clubs/Fiorentina">Fiorentina</Link></li>
+                            <span>23</span>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>10</span>
+                            <span>24-30</span>
+                            <span>25</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -288,14 +288,14 @@ function SerieA() {
 
                         <div className = "tableStandings">
                             <span>15</span>
-                            <img src = {Spezia}/>
-                            <li><Link to = "/SerieA/Clubs/Spezia">Spezia</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Sassuolo}/>
+                            <li><Link to = "/SerieA/Clubs/Sassuolo">Sassuolo</Link></li>
+                            <span>23</span>
+                            <span>6</span>
+                            <span>6</span>
+                            <span>11</span>
+                            <span>26-35</span>
+                            <span>24</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -307,12 +307,12 @@ function SerieA() {
                             <span>16</span>
                             <img src = {Salernitana}/>
                             <li><Link to = "/SerieA/Clubs/Salernitana">Salernitana</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>23</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span>12</span>
+                            <span>25-44</span>
+                            <span>21</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -322,14 +322,14 @@ function SerieA() {
 
                         <div className = "tableStandings">
                             <span>17</span>
-                            <img src = {Sassuolo}/>
-                            <li><Link to = "/SerieA/Clubs/Sassuolo">Sassuolo</Link></li>
-                            <span>17</span>
-                            <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <img src = {Spezia}/>
+                            <li><Link to = "/SerieA/Clubs/Spezia">Spezia</Link></li>
+                            <span>23</span>
+                            <span>4</span>
+                            <span>7</span>
+                            <span>12</span>
+                            <span>19-39</span>
+                            <span>19</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -341,12 +341,12 @@ function SerieA() {
                             <span>18</span>
                             <img src = {Verona}/>
                             <li><Link to = "/SerieA/Clubs/Verona">Verona</Link></li>
-                            <span>17</span>
+                            <span>23</span>
+                            <span>4</span>
+                            <span>5</span>
                             <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>20-34</span>
+                            <span>17</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -358,12 +358,12 @@ function SerieA() {
                             <span>19</span>
                             <img src = {Sampdoria}/>
                             <li><Link to = "/SerieA/Clubs/Sampdoria">Sampdoria</Link></li>
-                            <span>17</span>
-                            <span>14</span>
+                            <span>23</span>
                             <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>5</span>
+                            <span>16</span>
+                            <span>11-38</span>
+                            <span>11</span>
                             <button></button>
                             <button></button>
                             <button></button>
@@ -375,12 +375,12 @@ function SerieA() {
                             <span>20</span>
                             <img src = {Cremonese}/>
                             <li><Link to = "/SerieA/Clubs/Cremonese">Cremonese</Link></li>
-                            <span>17</span>
+                            <span>23</span>
+                            <span>0</span>
+                            <span>9</span>
                             <span>14</span>
-                            <span>2</span>
-                            <span>1</span>
-                            <span>40-14</span>
-                            <span>44</span>
+                            <span>17-42</span>
+                            <span>9</span>
                             <button></button>
                             <button></button>
                             <button></button>
